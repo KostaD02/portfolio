@@ -1,7 +1,50 @@
+@import "../variables";
+
 app-logo-loading {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.skip {
+  color: $green-color;
+  background-color: transparent;
+  border: 1px solid $green-color;
+  border-radius: $border-radius;
+  font-size: $font-size-xs;
+  font-family: $secondary-font;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  padding: 1.25rem 1.75rem;
+  position: absolute;
+  transition: $transition;
+  top: 0px;
+  left: -100%;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -99;
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: 4px 4px 0 0 $green-color;
+    transform: translate(-5px, -5px);
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $green-color;
+    color: $navy-color;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    box-shadow: none;
+    transform: none;
+    z-index: 99;
+  }
 }
