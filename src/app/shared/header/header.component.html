@@ -1,0 +1,52 @@
+<header class="flex-center" [class.hide]="hideHeader" [class.scrolled]="isScrolling">
+  <nav class="flex-center">
+    <app-logo></app-logo>
+    <aside class="burger" *ngIf="showHamburger$ | async;else list">
+      <button aria-label="menu" class="menu" (click)="toggleMenu()" [class.open]="isListActive">
+        <div class="icon-left"></div>
+        <div class="icon-right"></div>
+      </button>
+    </aside>
+    <ng-template #list>
+      <div class="list">
+        <ul>
+          <li>
+            <a routerLink="" fragment="">About</a>
+          </li>
+          <li>
+            <a routerLink="" fragment="">Experience</a>
+          </li>
+          <li>
+            <a routerLink="" fragment="">Work</a>
+          </li>
+          <li>
+            <a routerLink="" fragment="">Contact</a>
+          </li>
+        </ul>
+        <app-anchor>Resume</app-anchor>
+      </div>
+    </ng-template>
+  </nav>
+  <ng-container *ngIf="isMenuOpen">
+    <aside class="content" (click)="backdropClick($event)">
+      <aside class="empty" [class.active]="isListActive" [class.dissapear]="!isListActive"></aside>
+      <div class="list" [class.active]="isListActive">
+        <ul>
+          <li>
+            <a routerLink="" fragment="">About</a>
+          </li>
+          <li>
+            <a routerLink="" fragment="">Experience</a>
+          </li>
+          <li>
+            <a routerLink="" fragment="">Work</a>
+          </li>
+          <li>
+            <a routerLink="" fragment="">Contact</a>
+          </li>
+        </ul>
+        <app-anchor>Resume</app-anchor>
+      </div>
+    </aside>
+  </ng-container>
+</header>

@@ -1,0 +1,22 @@
+@import "../../../variables";
+
+button {
+  color: $green-color;
+  font-family: $secondary-font;
+  font-size: $font-size-xs;
+  line-height: 1;
+  padding: 0.75rem 1rem;
+  background-color: transparent;
+  border: $border;
+  border-radius: $border-radius;
+  text-decoration: none;
+  transition: $transition;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus-visible {
+  outline: none;
+  box-shadow: $box-shadow;
+  transform: $transform;
+}
