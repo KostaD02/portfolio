@@ -1,5 +1,6 @@
 import { Component, ElementRef, EventEmitter, HostListener, OnDestroy, OnInit } from '@angular/core';
 import { Subject, Subscription, fromEvent, takeUntil, tap } from 'rxjs';
+import { AppTranslateService } from './services';
 
 @Component({
   selector: 'app-root',
@@ -9,12 +10,14 @@ import { Subject, Subscription, fromEvent, takeUntil, tap } from 'rxjs';
 export class AppComponent implements OnInit, OnDestroy {
   private readonly destroy$ = new Subject<void>();
 
-  public isAnimationOn: boolean = false;
+  public isAnimationOn: boolean = false; //! change it later
 
   public hideEventEmitter: EventEmitter<boolean> = new EventEmitter();
   public startedScrollingEventEmitter: EventEmitter<boolean> = new EventEmitter();
   public scroll$!: Subscription;
   private startPosition: number = 0
+
+  constructor(private appTranslateService: AppTranslateService) {}
 
   ngOnInit(): void {
     setTimeout(() => { // ? using for close animation loading

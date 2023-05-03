@@ -1,0 +1,10 @@
+{
+  "language": "English",
+  "navbar": {
+    "about": "About",
+    "experience": "Experience",
+    "work": "Work",
+    "contact": "Contact",
+    "resume": "Resume"
+  }
+}

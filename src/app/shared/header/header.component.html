@@ -1,8 +1,17 @@
-<header class="flex-center" [class.hide]="hideHeader" [class.scrolled]="isScrolling">
+<header
+  class="flex-center"
+  [class.hide]="hideHeader"
+  [class.scrolled]="isScrolling"
+>
   <nav class="flex-center">
     <app-logo></app-logo>
-    <aside class="burger" *ngIf="showHamburger$ | async;else list">
-      <button aria-label="menu" class="menu" (click)="toggleMenu()" [class.open]="isListActive">
+    <aside class="burger" *ngIf="showHamburger$ | async; else list">
+      <button
+        aria-label="menu"
+        class="menu"
+        (click)="toggleMenu()"
+        [class.open]="isListActive"
+      >
         <div class="icon-left"></div>
         <div class="icon-right"></div>
       </button>
@@ -11,41 +20,57 @@
       <div class="list">
         <ul>
           <li>
-            <a routerLink="" fragment="">About</a>
+            <a routerLink="" fragment="">{{ "navbar.about" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">Experience</a>
+            <a routerLink="" fragment="">{{ "navbar.experience" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">Work</a>
+            <a routerLink="" fragment="">{{ "navbar.work" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">Contact</a>
+            <a routerLink="" fragment="">{{ "navbar.contact" | translate }}</a>
+          </li>
+          <li class="language__change">
+            <button (click)="toggleLanguage()">
+              <img src="../../../assets/icons/globe.svg" alt="globe icon" />
+              <span>{{ "language" | translate }}</span>
+            </button>
           </li>
         </ul>
-        <app-anchor>Resume</app-anchor>
+        <app-anchor>{{ "navbar.resume" | translate }}</app-anchor>
       </div>
     </ng-template>
   </nav>
   <ng-container *ngIf="isMenuOpen">
     <aside class="content" (click)="backdropClick($event)">
-      <aside class="empty" [class.active]="isListActive" [class.dissapear]="!isListActive"></aside>
+      <aside
+        class="empty"
+        [class.active]="isListActive"
+        [class.dissapear]="!isListActive"
+      ></aside>
       <div class="list" [class.active]="isListActive">
         <ul>
           <li>
-            <a routerLink="" fragment="">About</a>
+            <a routerLink="" fragment="">{{ "navbar.about" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">Experience</a>
+            <a routerLink="" fragment="">{{ "navbar.experience" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">Work</a>
+            <a routerLink="" fragment="">{{ "navbar.work" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">Contact</a>
+            <a routerLink="" fragment="">{{ "navbar.contact" | translate }}</a>
+          </li>
+          <li class="language__change">
+            <button (click)="toggleLanguage()">
+              <img src="../../../assets/icons/globe.svg" alt="globe icon" />
+              <span>{{ "language" | translate }}</span>
+            </button>
           </li>
         </ul>
-        <app-anchor>Resume</app-anchor>
+        <app-anchor>{{ "navbar.resume" | translate }}</app-anchor>
       </div>
     </aside>
   </ng-container>

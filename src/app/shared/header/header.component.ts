@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { AppTranslateService } from 'src/app/services';
 
 @Component({
   selector: 'app-header',
@@ -17,7 +18,7 @@ export class HeaderComponent {
   public hideHeader: boolean = false;
   public isScrolling: boolean = false;
 
-  constructor() {
+  constructor(private appTranslateService: AppTranslateService) {
     this.showHamburger$ = this.getWindowSize().pipe(
       map((size) => {
         const isTablet = size.width <= 768;
@@ -80,5 +81,10 @@ export class HeaderComponent {
     setTimeout(() => {
       this.isMenuOpen = false;
     }, 600);
+  }
+
+  toggleLanguage() {
+    const currentLanguage = localStorage.getItem('language') || 'en';
+    this.appTranslateService.changeLanguage(currentLanguage === 'en' ? 'ka' : 'en');
   }
 }

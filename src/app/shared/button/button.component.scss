@@ -12,6 +12,7 @@ button {
   text-decoration: none;
   transition: $transition;
   cursor: pointer;
+  user-select: none;
 }
 
 button:hover,

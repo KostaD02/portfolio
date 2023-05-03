@@ -157,7 +157,7 @@ header {
         margin: 0px 5px;
         position: relative;
 
-        a {
+        a,button {
           padding: 10px;
           display: inline-block;
           text-decoration: none;
@@ -166,6 +166,9 @@ header {
           font-family: $secondary-font;
           color: $lightest-slate-color;
           transition: $transition;
+          user-select: none;
+          background-color: transparent;
+          border: none;
 
           &:hover {
             color: $green-color;
@@ -174,6 +177,21 @@ header {
           &:focus-visible {
             outline: 2px dashed $green-color;
             outline-offset: 3px;
+          }
+        }
+      }
+
+      li.language__change {
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          cursor: pointer;
+
+          img {
+            width: 20px;
+            height: 20px;
           }
         }
       }

@@ -12,6 +12,7 @@ a {
   text-decoration: none;
   transition: $transition;
   display: inline-block;
+  user-select: none;
 }
 
 a:hover,
