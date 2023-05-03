@@ -25,7 +25,10 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/sitemap.xml",
+              "src/robots.txt",
+              "src/resume.pdf"
             ],
             "styles": [
               "src/styles.scss"

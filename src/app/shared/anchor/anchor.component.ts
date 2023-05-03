@@ -8,4 +8,6 @@ import { Component, Input } from '@angular/core';
 export class AnchorComponent {
   @Input() link: string = ".";
   @Input() fragment: string = "";
+  @Input() target: string = "";
+  @Input() text: string = "";
 }

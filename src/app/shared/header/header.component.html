@@ -38,7 +38,7 @@
             </button>
           </li>
         </ul>
-        <app-anchor>{{ "navbar.resume" | translate }}</app-anchor>
+        <app-anchor [link]="'./resume.pdf'" [target]="'blank'" [text]="'navbar.resume'"></app-anchor>
       </div>
     </ng-template>
   </nav>
@@ -70,7 +70,7 @@
             </button>
           </li>
         </ul>
-        <app-anchor>{{ "navbar.resume" | translate }}</app-anchor>
+        <app-anchor [link]="'./resume.pdf'" [target]="'blank'" [text]="'navbar.resume'"></app-anchor>
       </div>
     </aside>
   </ng-container>

@@ -1,3 +1,10 @@
-<a [routerLink]="link" [fragment]="fragment">
-  <ng-content></ng-content>
-</a>
+<ng-container *ngIf="target === ''; else href">
+  <a [routerLink]="link" [fragment]="fragment">
+    {{ text | translate }}
+  </a>
+</ng-container>
+<ng-template #href>
+  <a [href]="link" target="_blank">
+    {{ text | translate }}
+  </a>
+</ng-template>
