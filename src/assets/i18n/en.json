@@ -6,5 +6,12 @@
     "work": "Work",
     "contact": "Contact",
     "resume": "Resume"
+  },
+  "info": {
+    "greeting": "Hi, my name is",
+    "fullName": "Konstantine Datunishvili.",
+    "profession": "I create websites.",
+    "detailed": "I am a Front-End Angular Developer with experience in Back-End Development. I am currently working as a Front-End Developer while also teaching Front-End Development at ",
+    "academy": "IT STEP Academy"
   }
 }

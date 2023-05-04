@@ -1,2 +1,13 @@
 <main>
+  <section class="info flex-center">
+    <article>
+      <h4>{{ "info.greeting" | translate }}</h4>
+      <h1>{{ "info.fullName" | translate }}</h1>
+      <h2>{{ "info.profession" | translate }}</h2>
+      <p>
+        {{ "info.detailed" | translate }}
+        <a [href]="link" target="_blank">{{ "info.academy" | translate }}</a>
+      </p>
+    </article>
+  </section>
 </main>

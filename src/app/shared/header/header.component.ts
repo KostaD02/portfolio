@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { LanguageEnum } from 'src/app/enums';
 import { AppTranslateService } from 'src/app/services';
 
 @Component({
@@ -84,7 +85,7 @@ export class HeaderComponent {
   }
 
   toggleLanguage() {
-    const currentLanguage = localStorage.getItem('language') || 'en';
-    this.appTranslateService.changeLanguage(currentLanguage === 'en' ? 'ka' : 'en');
+    const currentLanguage = localStorage.getItem('language') || LanguageEnum.EN;
+    this.appTranslateService.changeLanguage(currentLanguage === LanguageEnum.EN ? LanguageEnum.KA : LanguageEnum.EN);
   }
 }

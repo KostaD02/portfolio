@@ -1,4 +1,4 @@
-import { Component, ElementRef, EventEmitter, HostListener, OnDestroy, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnDestroy, OnInit } from '@angular/core';
 import { Subject, Subscription, fromEvent, takeUntil, tap } from 'rxjs';
 import { AppTranslateService } from './services';
 
