@@ -34,5 +34,19 @@ h6 {
 
 *::selection {
   color: $green-color;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: $lightest-navy-color
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: $navy-color;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #495670;
+  border: 3px solid $navy-color;
+  border-radius: 10px;
 }
