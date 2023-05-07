@@ -1,15 +1,15 @@
-import { Component, EventEmitter, Input } from '@angular/core';
-import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { Component, EventEmitter, Input, OnDestroy } from '@angular/core';
+import { Observable, Subject } from 'rxjs';
+import { map, tap, takeUntil } from 'rxjs/operators';
 import { LanguageEnum } from 'src/app/enums';
-import { AppTranslateService } from 'src/app/services';
+import { AppTranslateService, HeaderService } from 'src/app/services';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnDestroy {
   @Input() hide: EventEmitter<boolean> = new EventEmitter();
   @Input() scrolled: EventEmitter<boolean> = new EventEmitter();
 
@@ -18,18 +18,26 @@ export class HeaderComponent {
   public isMenuOpen = false;
   public hideHeader: boolean = false;
   public isScrolling: boolean = false;
+  private destroy$ = new Subject<void>();
 
-  constructor(private appTranslateService: AppTranslateService) {
+  constructor(private appTranslateService: AppTranslateService, private headerService: HeaderService) {
     this.showHamburger$ = this.getWindowSize().pipe(
       map((size) => {
         const isTablet = size.width <= 768;
         if (!isTablet) {
           this.isMenuOpen = false;
           this.isListActive = false;
+          this.headerService.isOpen = false;
+          document.body.style.overflow = 'auto';
         }
         return size.width <= 768;
-      })
+      }),
+      takeUntil(this.destroy$)
     );
+  }
+
+  ngOnDestroy(): void {
+    this.destroy$.next();
   }
 
   ngAfterViewInit(): void {
@@ -58,9 +66,13 @@ export class HeaderComponent {
     const list = document.querySelector('.list') as HTMLElement;
     if (list) {
       this.fadeOutList(list);
+      document.body.style.overflow = 'auto';
+      this.headerService.isOpen = false;
     } else {
       this.isMenuOpen = !this.isMenuOpen;
       this.isListActive = !this.isListActive;
+      document.body.style.overflow = 'hidden';
+      this.headerService.isOpen = true;
     }
   }
 
@@ -81,6 +93,8 @@ export class HeaderComponent {
     }
     setTimeout(() => {
       this.isMenuOpen = false;
+      document.body.style.overflow = 'auto';
+      this.headerService.isOpen = false;
     }, 600);
   }
 

@@ -27,7 +27,10 @@ export class AppTranslateService {
     this.changeLanguage(localStorage.getItem('language') as LanguageEnum || this.translate.getBrowserLang() as LanguageEnum || LanguageEnum.EN);
   }
 
-  public changeLanguage(language: LanguageEnum = LanguageEnum.EN) {
+  public changeLanguage(language: LanguageEnum) {
+    if (language as string !== 'en' || language as string !== 'ka') {
+      language = LanguageEnum.EN;
+    }
     this.translate.use(language);
     localStorage.setItem('language', language);
     this.language = language;
