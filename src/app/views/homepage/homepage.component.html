@@ -6,24 +6,47 @@
       <h2>{{ "info.profession" | translate }}</h2>
       <p>
         {{ "info.detailed" | translate }}
-        <a [href]="link" target="_blank">{{ "info.academy" | translate }}</a>
+        <a class="external" [href]="link" target="_blank">
+          {{ "info.academy" | translate }}
+        </a>
       </p>
     </article>
   </section>
-  <section class="about">
-    <h2>About me</h2>
+  <section class="about" id="about">
+    <h2>{{ "about.header" | translate }}</h2>
     <article>
       <aside class="left">
         <div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis non hic esse tempore similique ad labore, quisquam sequi possimus numquam adipisci, facilis facere assumenda totam qui tempora? Officiis, ex distinctio.</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis non hic esse tempore similique ad labore, quisquam sequi possimus numquam adipisci, facilis facere assumenda totam qui tempora? Officiis, ex distinctio.</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis non hic esse tempore similique ad labore, quisquam sequi possimus numquam adipisci, facilis facere assumenda totam qui tempora? Officiis, ex distinctio.</p>
+          <p>{{ "about.first_text" | translate }}</p>
+          <p>
+            {{ "about.second_text_first" | translate }}
+            <a class="external" [href]="'https://ge.itstep.org/'" target="_blank">
+              {{ "info.academy" | translate }}
+            </a>
+            {{ "about.second_text_second" | translate }}
+          </p>
+          <p>
+            {{ "about.third_text" | translate }}
+          </p>
+          <p>{{ "about.forth_text" | translate }}</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS/SCSS</li>
+            <li>JavaScript (ES6+)</li>
+            <li>TypeScript</li>
+            <li>Angular</li>
+            <li>RxJS</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+          </ul>
         </div>
-        <!-- skills -->
       </aside>
       <aside class="right">
         <div [class.lower]="lowerZIndex">
-          <img src="https://www.landscapingbydesign.com.au/wp-content/uploads/2018/11/img-person-placeholder-300x300.jpg" alt="konstantine datunishvili image">
+          <img
+            src="https://www.landscapingbydesign.com.au/wp-content/uploads/2018/11/img-person-placeholder-300x300.jpg"
+            alt="konstantine datunishvili image"
+          />
         </div>
       </aside>
     </article>
