@@ -23,13 +23,13 @@
             <a href="#about">{{ "navbar.about" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">{{ "navbar.experience" | translate }}</a>
+            <a href="#experience">{{ "navbar.experience" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">{{ "navbar.work" | translate }}</a>
+            <a href="">{{ "navbar.work" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">{{ "navbar.contact" | translate }}</a>
+            <a>{{ "navbar.contact" | translate }}</a>
           </li>
           <li class="language__change">
             <button (click)="toggleLanguage()">
@@ -38,7 +38,11 @@
             </button>
           </li>
         </ul>
-        <app-anchor [link]="'./resume.pdf'" [target]="'blank'" [text]="'navbar.resume'"></app-anchor>
+        <app-anchor
+          [link]="'./resume.pdf'"
+          [target]="'blank'"
+          [text]="'navbar.resume'"
+        ></app-anchor>
       </div>
     </ng-template>
   </nav>
@@ -52,16 +56,16 @@
       <div class="list" [class.active]="isListActive">
         <ul>
           <li>
-            <a routerLink="" fragment="">{{ "navbar.about" | translate }}</a>
+            <a href="#about">{{ "navbar.about" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">{{ "navbar.experience" | translate }}</a>
+            <a href="#experience">{{ "navbar.experience" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">{{ "navbar.work" | translate }}</a>
+            <a>{{ "navbar.work" | translate }}</a>
           </li>
           <li>
-            <a routerLink="" fragment="">{{ "navbar.contact" | translate }}</a>
+            <a>{{ "navbar.contact" | translate }}</a>
           </li>
           <li class="language__change">
             <button (click)="toggleLanguage()">
@@ -70,7 +74,11 @@
             </button>
           </li>
         </ul>
-        <app-anchor [link]="'./resume.pdf'" [target]="'blank'" [text]="'navbar.resume'"></app-anchor>
+        <app-anchor
+          [link]="'./resume.pdf'"
+          [target]="'blank'"
+          [text]="'navbar.resume'"
+        ></app-anchor>
       </div>
     </aside>
   </ng-container>

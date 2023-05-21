@@ -33,7 +33,7 @@
             {{ "about.third_text" | translate }}
           </p>
           <p>{{ "about.forth_text" | translate }}</p>
-          <ul class="list" [class.lower]="lowerZIndex">
+          <ul class="lists" [class.lower]="lowerZIndex">
             <li>HTML</li>
             <li>CSS/SCSS</li>
             <li>JavaScript (ES6+)</li>
@@ -55,7 +55,7 @@
       </aside>
     </article>
   </section>
-  <section class="experience">
+  <section class="experience" id="experience">
     <h2 class="header-text">{{ "experience.header" | translate }}</h2>
     <div class="jobs">
       <div class="jobs__tabs">
@@ -78,7 +78,7 @@
           <p>{{ jobDesription("date") | translate }}</p>
         </div>
         <div class="jobs__description__details">
-          <ul class="list" [class.lower]="lowerZIndex">
+          <ul class="lists" [class.lower]="lowerZIndex">
             <li *ngFor="let item of getJobDetailsArray(activeJobIndex);let i = index">
               <span>
                 {{ jobDesription("details") + "." + (i + 1) | translate }}
