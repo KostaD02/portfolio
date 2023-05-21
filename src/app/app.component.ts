@@ -15,7 +15,7 @@ export class AppComponent implements OnInit, OnDestroy {
   public hideEventEmitter: EventEmitter<boolean> = new EventEmitter();
   public startedScrollingEventEmitter: EventEmitter<boolean> = new EventEmitter();
   public scroll$!: Subscription;
-  private startPosition: number = 0
+  private startPosition: number = 0;
 
   constructor(private appTranslateService: AppTranslateService) {}
 

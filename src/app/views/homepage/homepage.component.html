@@ -13,14 +13,18 @@
     </article>
   </section>
   <section class="about" id="about">
-    <h2>{{ "about.header" | translate }}</h2>
+    <h2 class="header-text">{{ "about.header" | translate }}</h2>
     <article>
       <aside class="left">
         <div>
           <p>{{ "about.first_text" | translate }}</p>
           <p>
             {{ "about.second_text_first" | translate }}
-            <a class="external" [href]="'https://ge.itstep.org/'" target="_blank">
+            <a
+              class="external"
+              [href]="'https://ge.itstep.org/'"
+              target="_blank"
+            >
               {{ "info.academy" | translate }}
             </a>
             {{ "about.second_text_second" | translate }}
@@ -29,7 +33,7 @@
             {{ "about.third_text" | translate }}
           </p>
           <p>{{ "about.forth_text" | translate }}</p>
-          <ul>
+          <ul class="list" [class.lower]="lowerZIndex">
             <li>HTML</li>
             <li>CSS/SCSS</li>
             <li>JavaScript (ES6+)</li>
@@ -50,5 +54,39 @@
         </div>
       </aside>
     </article>
+  </section>
+  <section class="experience">
+    <h2 class="header-text">{{ "experience.header" | translate }}</h2>
+    <div class="jobs">
+      <div class="jobs__tabs">
+        <button
+          *ngFor="let job of jobsInformation; let i = index"
+          (click)="activeJobIndex = i"
+          [class.active]="activeJobIndex === i"
+        >
+          {{ createTranslateKeyForJobs(job) | translate }}
+        </button>
+      </div>
+      <div class="jobs__description">
+        <div class="jobs__description__header">
+          <h3>
+            {{ jobDesription("position") | translate }}
+            <span *ngIf="jobsInformation[activeJobIndex].link">
+              <a class="external" target="_blank" [href]="jobsInformation[activeJobIndex].link">{{ jobDesription("name") | translate }}</a>
+            </span>
+          </h3>
+          <p>{{ jobDesription("date") | translate }}</p>
+        </div>
+        <div class="jobs__description__details">
+          <ul class="list" [class.lower]="lowerZIndex">
+            <li *ngFor="let item of getJobDetailsArray(activeJobIndex);let i = index">
+              <span>
+                {{ jobDesription("details") + "." + (i + 1) | translate }}
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
