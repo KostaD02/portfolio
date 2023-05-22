@@ -72,7 +72,7 @@
           <h3>
             {{ jobDesription("position") | translate }}
             <span *ngIf="jobsInformation[activeJobIndex].link">
-              <a class="external" target="_blank" [href]="jobsInformation[activeJobIndex].link">{{ jobDesription("name") | translate }}</a>
+              <a class="external" target="_blank" [href]="jobsInformation[activeJobIndex].link">{{ jobDesription("at") | translate }}</a>
             </span>
           </h3>
           <p>{{ jobDesription("date") | translate }}</p>

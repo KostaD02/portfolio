@@ -230,6 +230,7 @@ main {
 
             span {
               color: $green-color;
+              display: inline-flex;
 
               &::before {
                 content: "@";

@@ -10,5 +10,9 @@ export const JobsInformation: JobsInformationInterface[] = [
     name: "payever",
     details: 4,
     link: "https://payever.org"
+  },
+  {
+    name: "freelance",
+    details: 2
   }
 ];

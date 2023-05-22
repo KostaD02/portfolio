@@ -11,39 +11,51 @@
     "greeting": "გამარჯობა, მე მქვია",
     "fullName": "კონსტანტინე დათუნიშვილი.",
     "profession": "მე ვაკეთებ საიტებს.",
-    "detailed": "მე ვარ Front-End ანგულარ დეველოპერი Back-End ის გამოცდილებით. ამჟამად ვმუშაობ, როგორც Front-End დეველოპერი, ამავდროულად ვასწავლი Front-End ს ",
+    "detailed": "მე ვარ Front-End Angular დეველოპერი Back-End ის გამოცდილებით. ამჟამად ვმუშაობ, როგორც Front-End დეველოპერი, ამავდროულად ვასწავლი Front-End ს ",
     "academy": "IT აკადემია სტეპში"
   },
   "about": {
     "header": "ჩემს შესახებ",
-    "first_text": "გამარჯობა, მე ვარ კონსტანტინე დათუნიშვილი, Front-End ანგულარ დეველოპერი. მე ვამზადებ საიტებს ანგულარის გამოყენებით.",
+    "first_text": "გამარჯობა, მე ვარ კონსტანტინე დათუნიშვილი, Front-End Angular დეველოპერი. მე ვამზადებ საიტებს Angualar-ის გამოყენებით.",
     "second_text_first": "მე ვასწავლი",
     "second_text_second": "2021 წლის სექტემბრიდან, მანამდე მიმუშავია სხვადასხვა პროექტებზე და კომპანიებზე.",
     "third_text": "ასევე მაქვს Back-End დეველოპმენტის გამოცდილება და შემიძლია ავაწყო Full-Stack პროექტები Node-ს & Angular-ს გამოყენებით. ვცდილობ გამოვიყენო ყოველ პროექტში უახლესი პრაქტიკა.",
     "forth_text": "რამოდენიმე ტექნოლოგია, რომლებთანაც მიმუშავია ეს ბოლო პერიოდი:"
   },
   "experience": {
-    "header": "Where I've Worked",
+    "header": "სამუშაო გამოცდილება",
     "itstep": {
       "name": "Academy IT Step",
-      "position": "Lecturer",
-      "date": "Sep 2021 - Present",
+      "at": "IT აკადემია სტეპში",
+      "position": "ლექტორი",
+      "date": "სექ 2021 - აწმყო",
       "details": {
-        "1": "As a Lecturer specializing in front-end development, I conduct live sessions for students on Microsoft Teams. All sessions are recorded for students to review at their convenience.",
-        "2": "I cover topics such as HTML, CSS, SCSS, Bootstrap, JavaScript, SweetAlert, Angular, Angular Material, and provide a brief introduction to RxJS.",
-        "3": "I also assign and evaluate homework to reinforce learning and provide feedback.",
-        "4": "My goal is to create an engaging learning environment and equip students with the skills needed for successful careers in front-end development."
+        "1": "როგორც ლექტორი, ჩემი სამუშაო სპეციალიზირდება Front-end დეველოპმენტთან, ლექციები თიმსის დახმარებით ტარდება. ყოველი ლექცია იწერება, რათა სტუდენტებმა შეძლონ ლექციის შემდგომ განხილვა ან გამეორება.",
+        "2": "ჩვენ გავდივართ ისეთ ტექნოლოგიებს, როგორიცაა: HTML, CSS, SCSS, Bootstrap, JavaScript, SweetAlert, Angular, Angular Material და მცირედი შეხება გვაქვს RxJS-ს თან.",
+        "3": "ასევე ჩვენ გვაქვს საშინაო დავალებების სისტემა, რითაც სტუდენტებთან ვამყარებ უკუკავშირს და ვხედავ მათ მიერ შეძენილ ცოდნას.",
+        "4": "ჩემი მიზანია შევქმნა საინტერესო სასწავლო გარემო და ვასწავლო სტუდენტებს ისეთი უნარები, რომლებიც დაეხმარება წარმატებული კარიერის მიღწევაში."
       }
     },
     "payever": {
       "name": "Payever",
-      "position": "Front-End Angular Developer",
-      "date": "Oct - Dec 2022",
+      "at": "Payever",
+      "position": "Front-End Angular დეველოპერი",
+      "date": "ოქტ - დეკ 2022",
       "details": {
-        "1": "I was developing and maintain frontend applications based on Angular.",
-        "2": "Developed UI/UX features in Angular as described and displayed in the graphical design, ensure and advice on the technical feasibility of the UI/UX designs.",
-        "3": "Optimize applications for scalability, cross-browser, cross-device and built reusable code for future use.",
-        "4": "Work products were written in HTML5, SCSS and Angular."
+        "1": "მე ვქმნიდი Front-end აპლიკაციებს Angular-ის დახმარებით.",
+        "2": "ვქმნიდი UI/UX მოდულებს Angular-ის საშუალებით, გრაფიკოს დიზაინერის მოთხოვნის შესაბამისად, ასევე მონაწილოებას ვღებულობდი UI/UX დიზაინის დამზადებაში.",
+        "3": "ოპტიმიზაციას ვუწევდი ალპიკაციას იმისათვის, რომ შედეგი ყოფილიყო cross-browser და cross-device აპლიკაცია და არსებული კოდი ყოფილიყო სამომავლოდ გამოსადეგი.",
+        "4": "აპლიკაცია დაწერილი იყო HTML5, SCSS და Angular."
+      }
+    },
+    "freelance": {
+      "name": "Freelance",
+      "at": "Freelance",
+      "position": "Freelance პროექტები",
+      "date": "მარ 2021 - აწმყო",
+      "details": {
+        "1": "მე ვარ გამოცდილი Full-stack დეველოპერი, Front-end-ში ანგულარის გამოყენებით, ხოლო Back-end-ში კი Node.js Express საშუალებით და MongoDB მონაცემთა ბაზით.",
+        "2": "სხვადასხვა პროექტიდან მიღებული გამოცდილებით შემიძლია შევქმნა სხვადასხვა ტიპის სამომხმარებლო ინტერფეისები, ასევე მონაცემთა შენახვის და დამუშავების ეფექტური გზით."
       }
     }
   }

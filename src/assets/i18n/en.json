@@ -26,6 +26,7 @@
     "header": "Where I've Worked",
     "itstep": {
       "name": "Academy IT Step",
+      "at": "Academy IT Step",
       "position": "Lecturer",
       "date": "Sep 2021 - Present",
       "details": {
@@ -37,6 +38,7 @@
     },
     "payever": {
       "name": "Payever",
+      "at": "Payever",
       "position": "Front-End Angular Developer",
       "date": "Oct - Dec 2022",
       "details": {
@@ -44,6 +46,16 @@
         "2": "Developed UI/UX features in Angular as described and displayed in the graphical design, ensure and advice on the technical feasibility of the UI/UX designs.",
         "3": "Optimize applications for scalability, cross-browser, cross-device and built reusable code for future use.",
         "4": "Work products were written in HTML5, SCSS and Angular."
+      }
+    },
+    "freelance": {
+      "name": "Freelance",
+      "at": "Freelance",
+      "position": "Freelance projects",
+      "date": "Mar 2021 - Present",
+      "details": {
+        "1": "I am an experienced Full-stack developer specializing in Angular for Front-end development and Node.js with Express and MongoDB for Back-end development.",
+        "2": "With a proven track record of successfully delivering projects, I have worked on various assignments creating dynamic user interfaces and implementing efficient data storage solutions."
       }
     }
   }
