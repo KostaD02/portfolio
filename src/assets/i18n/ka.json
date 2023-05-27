@@ -8,10 +8,10 @@
     "resume": "რეზიუმე"
   },
   "info": {
-    "greeting": "გამარჯობა, მე მქვია",
+    "greeting": "გამარჯობა, მე ვარ",
     "fullName": "კონსტანტინე დათუნიშვილი.",
     "profession": "მე ვაკეთებ საიტებს.",
-    "detailed": "მე ვარ Front-End Angular დეველოპერი Back-End ის გამოცდილებით. ამჟამად ვმუშაობ, როგორც Front-End დეველოპერი, ამავდროულად ვასწავლი Front-End ს ",
+    "detailed": "მე ვარ Angular Front-End დეველოპერი, მაქვს Back-End ის გამოცდილება. ამჟამად ვმუშაობ, როგორც Front-End დეველოპერი და ამავდროულად ვასწავლი Front-End-ს ",
     "academy": "IT აკადემია სტეპში"
   },
   "about": {

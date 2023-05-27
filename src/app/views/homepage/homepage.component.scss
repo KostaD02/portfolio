@@ -288,6 +288,7 @@ main {
     .experience {
       .jobs {
         display: grid;
+        row-gap: 15px;
 
         &__tabs {
           width: 100%;

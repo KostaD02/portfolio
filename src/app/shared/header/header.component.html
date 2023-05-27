@@ -56,16 +56,16 @@
       <div class="list" [class.active]="isListActive">
         <ul>
           <li>
-            <a href="#about">{{ "navbar.about" | translate }}</a>
+            <a href="#about" (click)="toggleMenu()">{{ "navbar.about" | translate }}</a>
           </li>
           <li>
-            <a href="#experience">{{ "navbar.experience" | translate }}</a>
+            <a href="#experience" (click)="toggleMenu()">{{ "navbar.experience" | translate }}</a>
           </li>
           <li>
-            <a href="">{{ "navbar.work" | translate }}</a>
+            <a href="" (click)="toggleMenu()">{{ "navbar.work" | translate }}</a>
           </li>
           <li>
-            <a href="">{{ "navbar.contact" | translate }}</a>
+            <a href="" (click)="toggleMenu()">{{ "navbar.contact" | translate }}</a>
           </li>
           <li class="language__change">
             <button (click)="toggleLanguage()">
