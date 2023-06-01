@@ -1,6 +1,6 @@
-import { JobsInformationInterface } from '../interfaces';
+import { InformationInterface } from '../interfaces';
 
-export const JobsInformation: JobsInformationInterface[] = [
+export const JobsInformation: InformationInterface[] = [
   {
     name: "itstep",
     details: 4,

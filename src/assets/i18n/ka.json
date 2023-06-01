@@ -1,5 +1,6 @@
 {
   "language": "ქართული",
+  "reverse": "English",
   "navbar": {
     "about": "ჩემს შესახებ",
     "experience": "გამოცდილება",
@@ -56,6 +57,47 @@
       "details": {
         "1": "მე ვარ გამოცდილი Full-stack დეველოპერი, Front-end-ში ანგულარის გამოყენებით, ხოლო Back-end-ში კი Node.js Express საშუალებით და MongoDB მონაცემთა ბაზით.",
         "2": "სხვადასხვა პროექტიდან მიღებული გამოცდილებით შემიძლია შევქმნა სხვადასხვა ტიპის სამომხმარებლო ინტერფეისები, ასევე მონაცემთა შენახვის და დამუშავების ეფექტური გზით."
+      }
+    }
+  },
+  "projects": {
+    "header": "Some Things I've Built",
+    "registry_imdo": {
+      "tag": "Featured Project",
+      "title": "Registry Imdo",
+      "description": "This digital platform was designed for the verification of certificates designed by the Irish Imdo Maritime Authority. The aim of Maritime Authority of Irish Imdo is to come to a safe maritime environment in compliance with International Rules and Regulations.",
+      "tags": {
+        "1": "Angular",
+        "2": "Angular Material",
+        "3": "Express",
+        "4": "MongoDB",
+        "5": "Full-stack"
+      }
+    },
+    "iswavle": {
+      "tag": "Featured Project",
+      "title": "Iswavle",
+      "description": "This website provides free learning resources for Front End development. The website has a built-in code editor that allows you to write and experiment with code directly on the platform. You can practice with practical examples integrated into educational articles. The website is available only in the Georgian language.",
+      "tags": {
+        "1": "Angular",
+        "2": "Firebase",
+        "3": "SSR",
+        "4": "SEO",
+        "5": "Express",
+        "6": "MongoDB",
+        "7": "Full-stack"
+      }
+    },
+    "qr_code": {
+      "tag": "Featured Project",
+      "title": "QR Code",
+      "description": "I have developed the scientific project titled 'Multi-level Access of Information Systems by QR Codes'. The idea has been successfully implemented and demonstrated through the example of a higher educational institution, specifically a university.",
+      "tags": {
+        "1": "Angular",
+        "2": "Express",
+        "3": "MongoDB",
+        "4": "Full-stack",
+        "5": "QR Codes"
       }
     }
   }

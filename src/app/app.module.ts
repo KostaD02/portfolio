@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomepageComponent, NotfoundComponent } from './views';
 import { AnchorComponent, ButtonComponent, HeaderComponent, LogoComponent, LogoLoadingComponent } from './shared';
+import { QrProjectComponent } from './views/qr-project/qr-project.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AnchorComponent, ButtonComponent, HeaderComponent, LogoComponent, LogoL
     LogoComponent,
     LogoLoadingComponent,
     ButtonComponent,
-    AnchorComponent
+    AnchorComponent,
+    QrProjectComponent
   ],
   imports: [
     BrowserModule,
