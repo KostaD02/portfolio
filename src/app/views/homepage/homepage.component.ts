@@ -1,8 +1,8 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subject, tap, takeUntil } from 'rxjs';
-import { AcademyLinks, JobsInformation } from 'src/app/consts';
+import { AcademyLinks, JobsInformation, ProjectsInformation } from 'src/app/consts';
 import { LanguageEnum } from 'src/app/enums';
-import { JobsInformationInterface } from 'src/app/interfaces';
+import { InformationInterface } from 'src/app/interfaces';
 import { AppTranslateService, HeaderService } from 'src/app/services';
 
 @Component({
@@ -15,7 +15,8 @@ export class HomepageComponent implements OnInit, OnDestroy {
   public link: string = "https://itstep.org/en";
   public lowerZIndex: boolean = false;
   private readonly destroy$ = new Subject<void>;
-  public readonly jobsInformation: JobsInformationInterface[] = JobsInformation;
+  public readonly jobsInformation: InformationInterface[] = JobsInformation;
+  public readonly projectsInformation: InformationInterface[] = ProjectsInformation;
   public activeJobIndex: number = 0;
 
   constructor(private appTranslateService: AppTranslateService, private headerService: HeaderService) { }
@@ -40,7 +41,7 @@ export class HomepageComponent implements OnInit, OnDestroy {
     this.destroy$.next();
   }
 
-  public createTranslateKeyForJobs(job: JobsInformationInterface, value: string = "name", part: string = "experience") {
+  public createTranslateKeyForJobs(job: InformationInterface, value: string = "name", part: string = "experience") {
     return `${part}.${job['name']}.${value}`;
   }
 
@@ -48,8 +49,12 @@ export class HomepageComponent implements OnInit, OnDestroy {
     return `experience.${this.jobsInformation[this.activeJobIndex].name}.${value}`;
   }
 
-  public getJobDetailsArray(index: number = 0) {
-    return new Array(this.jobsInformation[index].details).fill(0) || [];
+  public getJobDetailsArray(index: number = 0, array: InformationInterface[] = this.jobsInformation) {
+    return new Array(array[index].details).fill(0) || [];
+  }
+
+  public getKeyForProjects(project: InformationInterface, value: string) {
+    return `projects.${project.name}.${value}`;
   }
 
 }

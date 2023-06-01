@@ -72,14 +72,24 @@
           <h3>
             {{ jobDesription("position") | translate }}
             <span *ngIf="jobsInformation[activeJobIndex].link">
-              <a class="external" target="_blank" [href]="jobsInformation[activeJobIndex].link">{{ jobDesription("at") | translate }}</a>
+              <a
+                class="external"
+                target="_blank"
+                [href]="jobsInformation[activeJobIndex].link"
+                >{{ jobDesription("at") | translate }}</a
+              >
             </span>
           </h3>
           <p>{{ jobDesription("date") | translate }}</p>
         </div>
         <div class="jobs__description__details">
           <ul class="lists" [class.lower]="lowerZIndex">
-            <li *ngFor="let item of getJobDetailsArray(activeJobIndex);let i = index">
+            <li
+              *ngFor="
+                let item of getJobDetailsArray(activeJobIndex);
+                let i = index
+              "
+            >
               <span>
                 {{ jobDesription("details") + "." + (i + 1) | translate }}
               </span>
@@ -87,6 +97,27 @@
           </ul>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <h2 class="header-text">{{ "projects.header" | translate }}</h2>
+    <div class="projects_list">
+      <article class="project" *ngFor="let project of projectsInformation;let i = index" [class.right]="i%2 !== 0">
+        <a [href]="project.link" target="_blank" class="external_image" [ngStyle]="{backgroundImage: project.backgroundImageURL}"></a>
+        <aside class="content">
+          <p class="tag">{{ getKeyForProjects(project, "tag") | translate }}</p>
+          <a [href]="project.link" target="_blank" >{{ getKeyForProjects(project, "title") | translate }}</a>
+          <div class="project_description">
+            <p>{{ getKeyForProjects(project, "description") | translate }}</p>
+          </div>
+          <p class="tags">
+            <span *ngFor="let tag of getJobDetailsArray(i, projectsInformation);let j = index">
+              {{ getKeyForProjects(project, "tags") + "." + (j + 1)  | translate }}
+            </span>
+          </p>
+          <app-anchor *ngIf="project.additional" [text]="project.additional.text" [link]="project.additional.link"></app-anchor>
+        </aside>
+      </article>
     </div>
   </section>
 </main>
