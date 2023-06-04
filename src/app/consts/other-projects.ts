@@ -24,5 +24,29 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
       external: "https://kostad02.github.io/Color-Game-JS",
       github: "https://github.com/KostaD02/Color-Game-JS",
     }
+  },
+  {
+    name: "qr_project",
+    tags: ["Angular", "SCSS" ,"QR"],
+    externalLinks: {
+      external: "https://github.com/KostaD02/QR-read-write",
+      github: "https://github.com/KostaD02/QR-read-write",
+    }
+  },
+  {
+    name: "realtime_chat",
+    tags: ["Angular", "SCSS" ,"Firebase"],
+    externalLinks: {
+      external: "https://github.com/KostaD02",
+      github: "https://github.com/KostaD02",
+    }
+  },
+  {
+    name: "qa_exercise",
+    tags: ["Angular", "SCSS" ,"Firebase", "OAuth"],
+    externalLinks: {
+      external: "https://qa-test-6e586.web.app",
+      github: "https://github.com/KostaD02/QA-Exercise",
+    }
   }
-]
+];

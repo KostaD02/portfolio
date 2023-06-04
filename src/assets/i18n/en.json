@@ -118,6 +118,18 @@
     "color_game": {
       "name": "Color game",
       "description": "Guess the color based on the color format RGB or HEX. The colors are randomly generated."
+    },
+    "qr_project": {
+      "name": "QR read & write",
+      "description": "Generate QR code with or without an image, or read a QR image."
+    },
+    "realtime_chat": {
+      "name": "Real-time Chat",
+      "description": "Join our real-time chat platform to connect instantly with others in general or specialized groups."
+    },
+    "qa_exercise": {
+      "name": "QA Exercise",
+      "description": "Discover hidden bugs and vulnerabilities in your Simple Auth/OAuth 2.0 system with our expert testing."
     }
   }
 }
