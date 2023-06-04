@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomepageComponent, NotfoundComponent, QrProjectComponent } from './views';
+import { ArchiveComponent, HomepageComponent, NotfoundComponent, QrProjectComponent } from './views';
 
 const routes: Routes = [
   {
@@ -10,6 +10,10 @@ const routes: Routes = [
   {
     path: 'qr_project',
     component: QrProjectComponent
+  },
+  {
+    path: 'archive',
+    component: ArchiveComponent
   },
   {
     path: '404',

@@ -1,6 +1,9 @@
 {
   "language": "English",
   "reverse": "ქართული",
+  "skip": "Skip to About",
+  "page_not_found": "Page not found",
+  "go_back": "Navigate home",
   "navbar": {
     "about": "About",
     "experience": "Experience",
@@ -99,6 +102,22 @@
         "4": "Full-stack",
         "5": "QR Codes"
       }
+    }
+  },
+  "other_projects": {
+    "header": "Other Noteworthy Projects",
+    "view_archive": "View archive",
+    "sliding_game": {
+      "name": "Sliding puzzle game",
+      "description": "Starting at the top left corner, move the tiles in ascending order in the grid. The tile in the lower right corner should remain 'empty'."
+    },
+    "memory_card_game": {
+      "name": "Memory card game",
+      "description": "The objective of the game is to match all pairs of cards as quickly as possible."
+    },
+    "color_game": {
+      "name": "Color game",
+      "description": "Guess the color based on the color format RGB or HEX. The colors are randomly generated."
     }
   }
 }

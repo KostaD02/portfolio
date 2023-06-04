@@ -1,5 +1,5 @@
 <main>
-  <section class="info flex-center">
+  <section class="info flex-center" id="info">
     <article>
       <h4>{{ "info.greeting" | translate }}</h4>
       <h1>{{ "info.fullName" | translate }}</h1>
@@ -63,6 +63,7 @@
           *ngFor="let job of jobsInformation; let i = index"
           (click)="activeJobIndex = i"
           [class.active]="activeJobIndex === i"
+          [tabindex]="activeJobIndex === i ? -1 : 1"
         >
           {{ createTranslateKeyForJobs(job) | translate }}
         </button>
@@ -108,10 +109,17 @@
         [class.right]="i % 2 !== 0"
       >
         <a
+          *ngIf="!project.additional"
           [href]="project.link"
           target="_blank"
           class="external_image"
           [ngStyle]="{ backgroundImage: project.backgroundImageURL }"
+        ></a>
+        <a
+          *ngIf="project.additional"
+          class="external_image"
+          [ngStyle]="{ backgroundImage: project.backgroundImageURL }"
+          [routerLink]="project.additional.link"
         ></a>
         <aside class="content">
           <p class="tag">{{ getKeyForProjects(project, "tag") | translate }}</p>
@@ -149,6 +157,21 @@
           ></app-anchor>
         </aside>
       </article>
+    </div>
+  </section>
+  <section class="other-projects">
+    <h2 class="header-text">{{ "other_projects.header" | translate }}</h2>
+    <article class="projects-list">
+      <app-project-card
+        *ngFor="let projectData of otherProjectsInformation"
+        [project]="projectData"
+      ></app-project-card>
+    </article>
+    <div class="flex-center">
+      <app-anchor
+        [text]="'other_projects.view_archive'"
+        [link]="'archive'"
+      ></app-anchor>
     </div>
   </section>
 </main>

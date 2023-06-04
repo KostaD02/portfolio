@@ -2,7 +2,7 @@
   <app-logo-loading></app-logo-loading>
 </ng-container>
 <ng-template #loaded>
-  <a class="skip" href="#content">Skip to content</a>
+  <a class="skip" href="#about">{{ "skip" | translate }}</a>
   <app-header [hide]="hideEventEmitter" [scrolled]="startedScrollingEventEmitter"></app-header>
   <router-outlet></router-outlet>
   <aside class="socials">

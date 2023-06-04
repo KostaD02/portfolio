@@ -6,9 +6,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomepageComponent, NotfoundComponent } from './views';
-import { AnchorComponent, ButtonComponent, HeaderComponent, LogoComponent, LogoLoadingComponent } from './shared';
-import { QrProjectComponent } from './views/qr-project/qr-project.component';
+import { HomepageComponent, NotfoundComponent, QrProjectComponent, ArchiveComponent } from './views';
+import { AnchorComponent, ButtonComponent, HeaderComponent, LogoComponent, LogoLoadingComponent, ProjectCardComponent } from './shared';
 
 @NgModule({
   declarations: [
@@ -20,7 +19,9 @@ import { QrProjectComponent } from './views/qr-project/qr-project.component';
     LogoLoadingComponent,
     ButtonComponent,
     AnchorComponent,
-    QrProjectComponent
+    QrProjectComponent,
+    ProjectCardComponent,
+    ArchiveComponent
   ],
   imports: [
     BrowserModule,

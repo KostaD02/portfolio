@@ -1,8 +1,9 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subject, tap, takeUntil } from 'rxjs';
 import { AcademyLinks, JobsInformation, ProjectsInformation } from 'src/app/consts';
+import { OtherProjectsInformation } from 'src/app/consts/other-projects';
 import { LanguageEnum } from 'src/app/enums';
-import { InformationInterface } from 'src/app/interfaces';
+import { InformationInterface, OtherProjectsInformationInterface } from 'src/app/interfaces';
 import { AppTranslateService, HeaderService } from 'src/app/services';
 
 @Component({
@@ -17,6 +18,7 @@ export class HomepageComponent implements OnInit, OnDestroy {
   private readonly destroy$ = new Subject<void>;
   public readonly jobsInformation: InformationInterface[] = JobsInformation;
   public readonly projectsInformation: InformationInterface[] = ProjectsInformation;
+  public readonly otherProjectsInformation: OtherProjectsInformationInterface[] = OtherProjectsInformation;
   public activeJobIndex: number = 0;
 
   constructor(private appTranslateService: AppTranslateService, private headerService: HeaderService) { }
