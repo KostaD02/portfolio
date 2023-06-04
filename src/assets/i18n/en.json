@@ -131,5 +131,10 @@
       "name": "QA Exercise",
       "description": "Discover hidden bugs and vulnerabilities in your Simple Auth/OAuth 2.0 system with our expert testing."
     }
+  },
+  "contact": {
+    "header": "Get In Touch",
+    "description": "I'm currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+    "text": "Contact Me"
   }
 }

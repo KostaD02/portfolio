@@ -174,4 +174,13 @@
       ></app-anchor>
     </div>
   </section>
+  <section class="contact" id="contact">
+    <h2 class="header-text">{{ "contact.header" | translate }}</h2>
+    <p>{{"contact.description" | translate }}</p>
+    <app-anchor
+      [text]="'contact.text'"
+      [target]="'external'"
+      [link]="'mailto:info@konstantinedatunishvili.com'"
+    ></app-anchor>
+  </section>
 </main>
