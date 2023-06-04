@@ -102,20 +102,51 @@
   <section class="projects" id="projects">
     <h2 class="header-text">{{ "projects.header" | translate }}</h2>
     <div class="projects_list">
-      <article class="project" *ngFor="let project of projectsInformation;let i = index" [class.right]="i%2 !== 0">
-        <a [href]="project.link" target="_blank" class="external_image" [ngStyle]="{backgroundImage: project.backgroundImageURL}"></a>
+      <article
+        class="project"
+        *ngFor="let project of projectsInformation; let i = index"
+        [class.right]="i % 2 !== 0"
+      >
+        <a
+          [href]="project.link"
+          target="_blank"
+          class="external_image"
+          [ngStyle]="{ backgroundImage: project.backgroundImageURL }"
+        ></a>
         <aside class="content">
           <p class="tag">{{ getKeyForProjects(project, "tag") | translate }}</p>
-          <a [href]="project.link" target="_blank" >{{ getKeyForProjects(project, "title") | translate }}</a>
+          <a
+            *ngIf="!project.additional; else additional"
+            [href]="project.link"
+            target="_blank"
+          >
+            {{ getKeyForProjects(project, "title") | translate }}
+          </a>
+          <ng-template #additional>
+            <a [routerLink]="project.additional?.link">
+              {{ getKeyForProjects(project, "title") | translate }}
+            </a>
+          </ng-template>
           <div class="project_description">
             <p>{{ getKeyForProjects(project, "description") | translate }}</p>
           </div>
           <p class="tags">
-            <span *ngFor="let tag of getJobDetailsArray(i, projectsInformation);let j = index">
-              {{ getKeyForProjects(project, "tags") + "." + (j + 1)  | translate }}
+            <span
+              *ngFor="
+                let tag of getJobDetailsArray(i, projectsInformation);
+                let j = index
+              "
+            >
+              {{
+                getKeyForProjects(project, "tags") + "." + (j + 1) | translate
+              }}
             </span>
           </p>
-          <app-anchor *ngIf="project.additional" [text]="project.additional.text" [link]="project.additional.link"></app-anchor>
+          <app-anchor
+            *ngIf="project.additional"
+            [text]="project.additional.text"
+            [link]="project.additional.link"
+          ></app-anchor>
         </aside>
       </article>
     </div>
