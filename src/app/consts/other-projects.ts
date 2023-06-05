@@ -38,7 +38,7 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
     tags: ["Angular", "SCSS" ,"Firebase"],
     externalLinks: {
       external: "https://github.com/KostaD02",
-      github: "https://github.com/KostaD02",
+      github: "https://github.com/KostaD02/Real-time-Chat",
     }
   },
   {

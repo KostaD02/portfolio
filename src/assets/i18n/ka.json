@@ -136,5 +136,14 @@
     "header": "Get In Touch",
     "description": "I'm currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
     "text": "Contact Me"
+  },
+  "archive": {
+    "header": "Archive",
+    "subtitle": "A list of things I've worked on, which are public, as well have some projects that aren't published or are private.",
+    "year": "Year",
+    "title": "Title",
+    "made_at": "Made at",
+    "built_with": "Built with",
+    "link": "Link"
   }
 }
