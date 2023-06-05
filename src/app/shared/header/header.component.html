@@ -17,7 +17,7 @@
       </button>
     </aside>
     <ng-template #list>
-      <div class="list">
+      <div class="list nav-items">
         <ul>
           <li>
             <a href="#about">{{ "navbar.about" | translate }}</a>
@@ -42,6 +42,7 @@
           [link]="'./resume.pdf'"
           [target]="'blank'"
           [text]="'navbar.resume'"
+          (click)="toggleMenu()"
         ></app-anchor>
       </div>
     </ng-template>
@@ -78,6 +79,7 @@
           [link]="'./resume.pdf'"
           [target]="'blank'"
           [text]="'navbar.resume'"
+          (click)="toggleMenu()"
         ></app-anchor>
       </div>
     </aside>

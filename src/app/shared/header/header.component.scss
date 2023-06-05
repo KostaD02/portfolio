@@ -200,6 +200,22 @@ header {
     }
   }
 
+  // .list.nav-items {
+  //   ul {
+  //     @for $i from 1 through 4 {
+  //       li:nth-child(#{$i}) {
+  //         animation: drop-item $i * 200ms ease;
+  //       }
+  //     }
+  //     button {
+  //       animation: drop-item 1000ms ease;
+  //     }
+  //   }
+  //   app-anchor {
+  //     animation: drop-item 1200ms ease;
+  //   }
+  // }
+
   .content {
     height: 100vh;
     width: 100%;
@@ -264,5 +280,14 @@ header {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes drop-item {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
   }
 }

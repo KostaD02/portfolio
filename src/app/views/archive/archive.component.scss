@@ -98,7 +98,6 @@ main {
       }
 
       td.links {
-        min-width: 100px;
         div {
           gap: 10px;
           justify-content: flex-start;
@@ -162,7 +161,6 @@ main {
       }
 
       table {
-
         .hide-mobile {
           display: none;
         }
@@ -198,9 +196,6 @@ main {
       padding: 100px 15px;
 
       table {
-        td.links {
-          min-width: 0px;
-        }
         td.title {
           font-size: $font-size-md;
         }

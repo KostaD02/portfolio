@@ -4,7 +4,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2023,
     title: "Iswavle - Educational website",
-    built_with: ["Angular", "Angular material", "SSR", "SweetAlert2" ,"Express", "MongoDB"],
+    built_with: ["Angular", "Angular material", "SCSS", "RxJS", "SSR", "SweetAlert2", "Express", "MongoDB"],
     link: {
       external: "https://iswavle.com",
       github: "https://github.com/KostaD02/iswavle"
@@ -13,7 +13,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2023,
     title: "QA exercise",
-    built_with: ["Angular", "Angular material", "Firebase", "SweetAlert2"],
+    built_with: ["Angular", "Angular material", "SCSS", "Firebase", "SweetAlert2"],
     link: {
       external: "https://qa-test-6e586.web.app/sign-in",
       github: "https://github.com/KostaD02/QA-Exercise"
@@ -22,7 +22,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2023,
     title: "QR Read & Write",
-    built_with: ["Angular", "SweetAlert2"],
+    built_with: ["Angular", "SCSS", "SweetAlert2"],
     link: {
       external: "https://github.com/KostaD02/QR-read-write",
       github: "https://kostad02.github.io/QR-read-write"
@@ -31,7 +31,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2023,
     title: "Realt-time chat",
-    built_with: ["Angular", "Firebase"],
+    built_with: ["Angular", "SCSS", "Firebase"],
     link: {
       external: "https://github.com/KostaD02/Real-time-Chat",
       github: "https://github.com/KostaD02/Real-time-Chat"
@@ -41,7 +41,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     year: 2023,
     title: "Payever components",
     made_at: "Payever",
-    built_with: ["Angular"],
+    built_with: ["Angular", "SCSS", "RxJS"],
     link: {
       external: "https://commerceos.payever.org"
     }
@@ -50,7 +50,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     year: 2023,
     title: "Ravillas apartments",
     made_at: "Ravillas",
-    built_with: ["Angular", "Angular material", "Firebase", "SweetAlert2"]
+    built_with: ["Angular", "Angular material", "SCSS", "Firebase", "SweetAlert2"]
   },
   {
     year: 2023,
@@ -83,7 +83,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     year: 2022,
     title: "Registry imdo",
     made_at: "IMDO",
-    built_with: ["Angular", "Angular material" ,"SweetAlert2", "Express", "MongoDB"],
+    built_with: ["Angular", "Angular material", "SweetAlert2", "Express", "MongoDB"],
     link: {
       external: "https://registryimdo.org"
     }
@@ -92,7 +92,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     year: 2022,
     title: "QR Project",
     made_at: "University",
-    built_with: ["Angular", "Angular material" ,"SweetAlert2", "Express", "MongoDB"],
+    built_with: ["Angular", "Angular material", "SweetAlert2", "Express", "MongoDB"],
     link: {
       article: "qr_project"
     }
@@ -101,7 +101,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     year: 2022,
     title: "QR Project landing page",
     made_at: "University",
-    built_with: ["HTML", "CSS", "bootstrap" ,"JS"],
+    built_with: ["HTML", "CSS", "bootstrap", "JS"],
     link: {
       external: "https://kostad02.github.io/QR-Project/",
       github: "https://github.com/KostaD02/QR-Project"
@@ -119,7 +119,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2021,
     title: "Quiz me",
-    built_with: ["Angular", "Angular material", "SweetAlert2" ,"Firebase"],
+    built_with: ["Angular", "Angular material", "SweetAlert2", "Firebase"],
     link: {
       external: "https://quizme-3318d.web.app",
       github: "https://github.com/KostaD02/quizme"

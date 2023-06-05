@@ -44,16 +44,19 @@ main {
         font-weight: 400;
         font-size: clamp($font-size-sm, 8vw, $font-size-md);
         color: $green-color;
+        // animation: fade-up 1000ms ease;
       }
 
       h1 {
         font-size: clamp(40px, 5vw, 60px);
+        // animation: fade-up 1200ms ease;
       }
 
       h2 {
         margin-top: 5px;
         color: $slate-color;
         font-size: clamp(40px, 5vw, 60px);
+        // animation: fade-up 1400ms ease;
       }
 
       p {
@@ -62,6 +65,7 @@ main {
         font-size: $font-size-md;
         font-family: $secondary-font;
         line-height: 1.5;
+        // animation: fade-up 1600ms ease;
       }
     }
   }
@@ -630,5 +634,14 @@ main {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       }
     }
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
   }
 }

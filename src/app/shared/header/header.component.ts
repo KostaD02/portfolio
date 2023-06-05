@@ -101,5 +101,6 @@ export class HeaderComponent implements OnDestroy {
   toggleLanguage() {
     const currentLanguage = localStorage.getItem('language') || LanguageEnum.EN;
     this.appTranslateService.changeLanguage(currentLanguage === LanguageEnum.EN ? LanguageEnum.KA : LanguageEnum.EN);
+    this.toggleMenu();
   }
 }
