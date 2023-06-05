@@ -98,9 +98,11 @@ export class HeaderComponent implements OnDestroy {
     }, 600);
   }
 
-  toggleLanguage() {
+  toggleLanguage(isFromResize: boolean = false) {
     const currentLanguage = localStorage.getItem('language') || LanguageEnum.EN;
     this.appTranslateService.changeLanguage(currentLanguage === LanguageEnum.EN ? LanguageEnum.KA : LanguageEnum.EN);
-    this.toggleMenu();
+    if (isFromResize) {
+      this.toggleMenu();
+    }
   }
 }

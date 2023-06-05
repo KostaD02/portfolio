@@ -42,7 +42,6 @@
           [link]="'./resume.pdf'"
           [target]="'blank'"
           [text]="'navbar.resume'"
-          (click)="toggleMenu()"
         ></app-anchor>
       </div>
     </ng-template>
@@ -69,7 +68,7 @@
             <a href="#contact" (click)="toggleMenu()">{{ "navbar.contact" | translate }}</a>
           </li>
           <li class="language__change">
-            <button (click)="toggleLanguage()">
+            <button (click)="toggleLanguage(true)">
               <img src="../../../assets/icons/globe.svg" alt="globe icon" />
               <span>{{ "reverse" | translate }}</span>
             </button>
