@@ -112,7 +112,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     title: "Simple CRUD for Authentication",
     built_with: ["Node.js", "Express", "MongoDB", "CORS"],
     link: {
-      github: "https://github.com/KostaD02/AuthApiTest",
+      // github: "https://github.com/KostaD02/AuthApiTest",
       swagger: "https://app.swaggerhub.com/apis-docs/KostaD02/AuthSimpleApi/0.1/"
     }
   },

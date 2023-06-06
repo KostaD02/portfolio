@@ -10,7 +10,7 @@ import { AppTranslateService } from './services';
 export class AppComponent implements OnInit, OnDestroy {
   private readonly destroy$ = new Subject<void>();
 
-  public isAnimationOn: boolean = false; //! change it later
+  public isAnimationOn: boolean = true;
 
   public hideEventEmitter: EventEmitter<boolean> = new EventEmitter();
   public startedScrollingEventEmitter: EventEmitter<boolean> = new EventEmitter();

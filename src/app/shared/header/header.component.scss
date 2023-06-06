@@ -200,21 +200,21 @@ header {
     }
   }
 
-  // .list.nav-items {
-  //   ul {
-  //     @for $i from 1 through 4 {
-  //       li:nth-child(#{$i}) {
-  //         animation: drop-item $i * 200ms ease;
-  //       }
-  //     }
-  //     button {
-  //       animation: drop-item 1000ms ease;
-  //     }
-  //   }
-  //   app-anchor {
-  //     animation: drop-item 1200ms ease;
-  //   }
-  // }
+  .list.nav-items {
+    ul {
+      @for $i from 1 through 4 {
+        li:nth-child(#{$i}) {
+          animation: drop-item $i * 200ms ease;
+        }
+      }
+      button {
+        animation: drop-item 1000ms ease;
+      }
+    }
+    app-anchor {
+      animation: drop-item 1200ms ease;
+    }
+  }
 
   .content {
     height: 100vh;
