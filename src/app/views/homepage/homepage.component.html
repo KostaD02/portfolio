@@ -12,7 +12,7 @@
       </p>
     </article>
   </section>
-  <section class="about" id="about">
+  <section class="about" id="about" data-aos="slide-up" data-aos-duration="1000">
     <h2 class="header-text">{{ "about.header" | translate }}</h2>
     <article>
       <aside class="left">
@@ -55,7 +55,7 @@
       </aside>
     </article>
   </section>
-  <section class="experience" id="experience">
+  <section class="experience" id="experience" data-aos="slide-up" data-aos-duration="1000">
     <h2 class="header-text">{{ "experience.header" | translate }}</h2>
     <div class="jobs">
       <div class="jobs__tabs">
@@ -106,6 +106,8 @@
       <article
         class="project"
         *ngFor="let project of projectsInformation; let i = index"
+        data-aos="slide-up"
+        data-aos-duration="1000"
         [class.right]="i % 2 !== 0"
       >
         <a
@@ -163,8 +165,10 @@
     <h2 class="header-text">{{ "other_projects.header" | translate }}</h2>
     <article class="projects-list">
       <app-project-card
-        *ngFor="let projectData of otherProjectsInformation"
+        data-aos="slide-up"
+        *ngFor="let projectData of otherProjectsInformation; let i = index"
         [project]="projectData"
+        [attr.data-aos-duration]="i * 500"
       ></app-project-card>
     </article>
     <div class="flex-center">
@@ -174,7 +178,7 @@
       ></app-anchor>
     </div>
   </section>
-  <section class="contact" id="contact">
+  <section class="contact" id="contact" data-aos="slide-up" data-aos-duration="2000">
     <h2 class="header-text">{{ "contact.header" | translate }}</h2>
     <p>{{"contact.description" | translate }}</p>
     <app-anchor

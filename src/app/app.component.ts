@@ -1,6 +1,7 @@
 import { Component, EventEmitter, OnDestroy, OnInit } from '@angular/core';
 import { Subject, Subscription, fromEvent, takeUntil, tap } from 'rxjs';
 import { AppTranslateService } from './services';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,9 @@ export class AppComponent implements OnInit, OnDestroy {
   constructor(private appTranslateService: AppTranslateService) {}
 
   ngOnInit(): void {
+    AOS.init({
+      once: true
+    });
     setTimeout(() => { // ? using for close animation loading
       this.isAnimationOn = false;
     }, 4900);
