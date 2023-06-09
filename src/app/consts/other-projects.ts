@@ -29,7 +29,7 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
     name: "qr_project",
     tags: ["Angular", "SCSS" ,"QR"],
     externalLinks: {
-      external: "https://github.com/KostaD02/QR-read-write",
+      external: "https://kostad02.github.io/QR-read-write/site/",
       github: "https://github.com/KostaD02/QR-read-write",
     }
   },

@@ -24,7 +24,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     title: "QR Read & Write",
     built_with: ["Angular", "SCSS", "SweetAlert2"],
     link: {
-      external: "https://github.com/KostaD02/QR-read-write",
+      external: "https://kostad02.github.io/QR-read-write/site/",
       github: "https://kostad02.github.io/QR-read-write"
     }
   },
