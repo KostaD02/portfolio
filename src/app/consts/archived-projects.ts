@@ -12,11 +12,11 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   },
   {
     year: 2023,
-    title: "QA exercise",
-    built_with: ["Angular", "Angular material", "SCSS", "Firebase", "SweetAlert2"],
+    title: "Realttime chat",
+    built_with: ["Angular", "SCSS", "Firebase"],
     link: {
-      external: "https://qa-test-6e586.web.app/sign-in",
-      github: "https://github.com/KostaD02/QA-Exercise"
+      external: "https://realtime-chat-kd.web.app/",
+      github: "https://github.com/KostaD02/Realtime-Chat"
     }
   },
   {
@@ -30,11 +30,11 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   },
   {
     year: 2023,
-    title: "Realttime chat",
-    built_with: ["Angular", "SCSS", "Firebase"],
+    title: "QA exercise",
+    built_with: ["Angular", "Angular material", "SCSS", "Firebase", "SweetAlert2"],
     link: {
-      external: "https://realtime-chat-kd.web.app/",
-      github: "https://github.com/KostaD02/Realtime-Chat"
+      external: "https://qa-test-6e586.web.app/sign-in",
+      github: "https://github.com/KostaD02/QA-Exercise"
     }
   },
   {
