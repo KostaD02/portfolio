@@ -124,7 +124,7 @@
       "description": "Generate QR code with or without an image, or read a QR image."
     },
     "realtime_chat": {
-      "name": "Real-time Chat",
+      "name": "Realtime Chat",
       "description": "Join our real-time chat platform to connect instantly with others in general or specialized groups."
     },
     "qa_exercise": {

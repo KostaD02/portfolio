@@ -30,11 +30,11 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   },
   {
     year: 2023,
-    title: "Realt-time chat",
+    title: "Realttime chat",
     built_with: ["Angular", "SCSS", "Firebase"],
     link: {
       external: "https://realtime-chat-kd.web.app/",
-      github: "https://github.com/KostaD02/Real-time-Chat"
+      github: "https://github.com/KostaD02/Realtime-Chat"
     }
   },
   {
