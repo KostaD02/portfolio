@@ -2,14 +2,6 @@ import { OtherProjectsInformationInterface } from '../interfaces/other-projects.
 
 export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
   {
-    name: "qr_project",
-    tags: ["Angular", "SCSS" ,"QR"],
-    externalLinks: {
-      external: "https://qr-read-write.web.app/",
-      github: "https://github.com/KostaD02/QR-read-write",
-    }
-  },
-  {
     name: "realtime_chat",
     tags: ["Angular", "SCSS" ,"Firebase"],
     externalLinks: {
@@ -18,11 +10,11 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
     }
   },
   {
-    name: "sliding_game",
-    tags: ["HTML", "CSS", "JS"],
+    name: "qr_project",
+    tags: ["Angular", "SCSS" ,"QR"],
     externalLinks: {
-      external: "https://kostad02.github.io/Sliding-Puzzle-Game-JS",
-      github: "https://github.com/KostaD02/Sliding-Puzzle-Game-JS"
+      external: "https://qr-read-write.web.app/",
+      github: "https://github.com/KostaD02/QR-read-write",
     }
   },
   {
@@ -31,6 +23,14 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
     externalLinks: {
       external: "https://qa-test-6e586.web.app",
       github: "https://github.com/KostaD02/QA-Exercise",
+    }
+  },
+  {
+    name: "sliding_game",
+    tags: ["HTML", "CSS", "JS"],
+    externalLinks: {
+      external: "https://kostad02.github.io/Sliding-Puzzle-Game-JS",
+      github: "https://github.com/KostaD02/Sliding-Puzzle-Game-JS"
     }
   },
   {
