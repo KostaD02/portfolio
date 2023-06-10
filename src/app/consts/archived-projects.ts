@@ -33,7 +33,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     title: "Realt-time chat",
     built_with: ["Angular", "SCSS", "Firebase"],
     link: {
-      external: "https://github.com/KostaD02/Real-time-Chat",
+      external: "https://realtime-chat-kd.web.app/",
       github: "https://github.com/KostaD02/Real-time-Chat"
     }
   },

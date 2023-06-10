@@ -37,7 +37,7 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
     name: "realtime_chat",
     tags: ["Angular", "SCSS" ,"Firebase"],
     externalLinks: {
-      external: "https://github.com/KostaD02",
+      external: "https://realtime-chat-kd.web.app/",
       github: "https://github.com/KostaD02/Real-time-Chat",
     }
   },
