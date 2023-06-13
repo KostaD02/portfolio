@@ -20,11 +20,11 @@
   },
   "about": {
     "header": "ჩემს შესახებ",
-    "first_text": "გამარჯობა, მე ვარ კონსტანტინე დათუნიშვილი, Front-End Angular დეველოპერი. მე ვამზადებ საიტებს Angualar-ის გამოყენებით.",
-    "second_text_first": "მე ვასწავლი",
-    "second_text_second": "2021 წლის სექტემბრიდან, მანამდე მიმუშავია სხვადასხვა პროექტებზე და კომპანიებზე.",
-    "third_text": "ასევე მაქვს Back-End დეველოპმენტის გამოცდილება და შემიძლია ავაწყო Full-Stack პროექტები Node-ს & Angular-ს გამოყენებით. ვცდილობ გამოვიყენო ყოველ პროექტში უახლესი პრაქტიკა.",
-    "forth_text": "რამოდენიმე ტექნოლოგია, რომლებთანაც მიმუშავია ეს ბოლო პერიოდი:"
+    "first_text": "გამარჯობა, მე ვარ კონსტანტინე დათუნიშვილი, Front-End Angular დეველოპერი. მე ვქმნი საიტებს Angualar-ის გამოყენებით.",
+    "second_text_first": "2021 წლიდან ვასწავლი ",
+    "second_text_second": "ამასთანავე მიმუშავია სხვადასხვა კომპანიებსა და პროექტებზე.",
+    "third_text": "გარდა ამისა მაქვს Back-End დეველოპმენტის გამოცდილება, რომელიც მაძლევს შესაძლებლობას ავაწყო Full-Stack პროექტები Node-ს & Angular-ს გამოყენებით. თითოეულ პროექტში ვცდილობ გამოვიყენო უახლოესი პრაქტიკა და მეთოდები.",
+    "forth_text": "ბოლო პერიოდში გამოყენებული ტექნოლოგიები:"
   },
   "experience": {
     "header": "სამუშაო გამოცდილება",
@@ -34,10 +34,10 @@
       "position": "ლექტორი",
       "date": "სექ 2021 - აწმყო",
       "details": {
-        "1": "როგორც ლექტორი, ჩემი სამუშაო სპეციალიზირდება Front-end დეველოპმენტთან, ლექციები თიმსის დახმარებით ტარდება. ყოველი ლექცია იწერება, რათა სტუდენტებმა შეძლონ ლექციის შემდგომ განხილვა ან გამეორება.",
-        "2": "ჩვენ გავდივართ ისეთ ტექნოლოგიებს, როგორიცაა: HTML, CSS, SCSS, Bootstrap, JavaScript, SweetAlert, Angular, Angular Material და მცირედი შეხება გვაქვს RxJS-ს თან.",
-        "3": "ასევე ჩვენ გვაქვს საშინაო დავალებების სისტემა, რითაც სტუდენტებთან ვამყარებ უკუკავშირს და ვხედავ მათ მიერ შეძენილ ცოდნას.",
-        "4": "ჩემი მიზანია შევქმნა საინტერესო სასწავლო გარემო და ვასწავლო სტუდენტებს ისეთი უნარები, რომლებიც დაეხმარება წარმატებული კარიერის მიღწევაში."
+        "1": "როგორც ლექტორი, ჩემი სამუშაო უკავშირდება Front-end დეველოპმენტს. ლექციები ონლაინ, Team-ის საშუალებით ტარდება. აღსანიშნავია, რომ ყოველი ლექცია იწერება, იმისათვის რომ სტუდენტებმა ლექციის შემდგომ განხილვა ან გამეორება შეძლონ.",
+        "2": "სასწავლო პროგრამა ითვალისწინებს ისეთ ტექნოლოგიებს, როგორებიცაა: HTML, CSS, SCSS, Bootstrap, JavaScript, SweetAlert, Angular, Angular Material და მცირედით განვიხილავთ RxJS-ს.",
+        "3": "ამასთანავე მოსწავლეებისათვის შექმნილია საშინაო დავალებების სისტემა, რომლის დახმარებითაც  შესაძლოა უკუკავშირის დამყარება და მათ მიერ შეძენილ ცოდნის შემოწმება.",
+        "4": "ჩემი მიზანია შევქმნა საინტერესო სასწავლო გარემო და შევძინო სტუდენტებს უნარები, რომლებიც დაეხმარება მათ წარმატებული კარიერის მიღწევაში."
       }
     },
     "payever": {
@@ -46,9 +46,9 @@
       "position": "Front-End Angular დეველოპერი",
       "date": "ოქტ - დეკ 2022",
       "details": {
-        "1": "მე ვქმნიდი Front-end აპლიკაციებს Angular-ის დახმარებით.",
+        "1": "ამ პერიოდის განმავლობაში ვქმნიდი Front-end აპლიკაციებსა და UI/UX მოდულებს გრაფიკოს დიზაინერის მოთხოვნით, Angular-ის საშუალებით.",
         "2": "ვქმნიდი UI/UX მოდულებს Angular-ის საშუალებით, გრაფიკოს დიზაინერის მოთხოვნის შესაბამისად, ასევე მონაწილოებას ვღებულობდი UI/UX დიზაინის დამზადებაში.",
-        "3": "ოპტიმიზაციას ვუწევდი ალპიკაციას იმისათვის, რომ შედეგი ყოფილიყო cross-browser და cross-device აპლიკაცია და არსებული კოდი ყოფილიყო სამომავლოდ გამოსადეგი.",
+        "3": "ამასთანავე ოპტიმიზაციას ვუწევდი აპლიკაციის იმისათვის, რომ cross-browser და cross-device აპლიკაცია მიგვეღო შედეგად და არსებული კოდი მომავალში რეალიზებადი გამოსულიყო.",
         "4": "აპლიკაცია დაწერილი იყო HTML5, SCSS და Angular."
       }
     },
@@ -59,16 +59,16 @@
       "date": "მარ 2021 - აწმყო",
       "details": {
         "1": "მე ვარ გამოცდილი Full-stack დეველოპერი, Front-end-ში ანგულარის გამოყენებით, ხოლო Back-end-ში კი Node.js Express საშუალებით და MongoDB მონაცემთა ბაზით.",
-        "2": "სხვადასხვა პროექტიდან მიღებული გამოცდილებით შემიძლია შევქმნა სხვადასხვა ტიპის სამომხმარებლო ინტერფეისები, ასევე მონაცემთა შენახვის და დამუშავების ეფექტური გზით."
+        "2": "სხვადასხვა პროექტიდან მიღებული გამოცდილებით შემიძლია შევქმნა განსხვავებული ტიპის სამომხმარებლო ინტერფეისები, მონაცემთა შენახვისა და დამუშავების ეფექტური გზით."
       }
     }
   },
   "projects": {
-    "header": "Some Things I've Built",
+    "header": "ჩემი პროექტები",
     "registry_imdo": {
-      "tag": "Featured Project",
+      "tag": "გამორჩეული პროექტი",
       "title": "Registry Imdo",
-      "description": "This digital platform was designed for the verification of certificates designed by the Irish Imdo Maritime Authority. The aim of Maritime Authority of Irish Imdo is to come to a safe maritime environment in compliance with International Rules and Regulations.",
+      "description": "ეს ციფრული პლატფორმა შეიქმნა ირლანდიის Imdo საზღვაო ორგანოს მიერ შექმნილი სერთიფიკატების გადამოწმებისთვის. ირლანდიური Imdo საზღვაო ორგანოს მიზანია უსაფრთხო საზღვაო გარემოს მიღწევა საერთაშორისო წესებისა და რეგულაციების შესაბამისად.",
       "tags": {
         "1": "Angular",
         "2": "Angular Material",
@@ -78,9 +78,9 @@
       }
     },
     "iswavle": {
-      "tag": "Featured Project",
+      "tag": "გამორჩეული პროექტი",
       "title": "Iswavle",
-      "description": "This website provides free learning resources for Front End development. The website has a built-in code editor that allows you to write and experiment with code directly on the platform. You can practice with practical examples integrated into educational articles. The website is available only in the Georgian language.",
+      "description": "ეს ვებსაიტი გთავაზობთ უფასო სასწავლო რესურსებს ფრონტის განვითარებისთვის. ვებსაიტს აქვს ჩაშენებული კოდის რედაქტორი, რომელიც საშუალებას გაძლევთ დაწეროთ და ექსპერიმენტი გააკეთოთ კოდით პირდაპირ პლატფორმაზე. შეგიძლიათ ივარჯიშოთ სტატიებში შეტანილი პრაქტიკული მაგალითებით. საიტი ხელმისაწვდომია მხოლოდ ქართულ ენაზე.",
       "tags": {
         "1": "Angular",
         "2": "Firebase",
@@ -92,9 +92,9 @@
       }
     },
     "qr_code": {
-      "tag": "Featured Project",
+      "tag": "გამორჩეული პროექტი",
       "title": "QR Code",
-      "description": "I have developed the scientific project titled 'Multi-level Access of Information Systems by QR Codes'. The idea has been successfully implemented and demonstrated through the example of a higher educational institution, specifically a university.",
+      "description": "მე შევიმუშავე სამეცნიერო პროექტი სახელწოდებით 'ინფორმაციული სისტემების მრავალდონიანი წვდომა QR კოდებით'. იდეა წარმატებით განხორციელდა და იმუშავა უმაღლესი საგანმანათლებლო დაწესებულების, კონკრეტულად კი უნივერსიტეტის მაგალითზე.",
       "tags": {
         "1": "Angular",
         "2": "Express",
@@ -105,8 +105,8 @@
     }
   },
   "other_projects": {
-    "header": "Other Noteworth Projects",
-    "view_archive": "View archive",
+    "header": "სხვა საყურადღებო პროექტები",
+    "view_archive": "არქივის ხილვა",
     "sliding_game": {
       "name": "Sliding puzzle game",
       "description": "Starting at the top left corner, move the tiles in ascending order in the grid. The tile in the lower right corner should remain 'empty'."
@@ -133,17 +133,17 @@
     }
   },
   "contact": {
-    "header": "Get In Touch",
-    "description": "I'm currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
-    "text": "Contact Me"
+    "header": "შემეხმიანე",
+    "description": "ამჟამად ვეძებ ახალ შესაძლებლობებს, ჩემი ინბოქსი ყოველთვის ღიაა. გაქვთ თუ არა შეკითხვა, ან უბრალოდ გსურთ გამარჯობის თქმა, შემეხმიანეთ!",
+    "text": "დამიკავშირდი"
   },
   "archive": {
-    "header": "Archive",
-    "subtitle": "A list of things I've worked on, which are public, as well have some projects that aren't published or are private.",
-    "year": "Year",
-    "title": "Title",
-    "made_at": "Made at",
-    "built_with": "Built with",
-    "link": "Link"
+    "header": "არქივი",
+    "subtitle": "საჯარო პროექტების სია, რაზეც ვმუშაობდი, ასევე მაქვს რამდენიმე პროექტი, რომელიც არ არის გამოქვეყნებული ან კერძოა.",
+    "year": "წელი",
+    "title": "დასახელება",
+    "made_at": "გაკეთებულია",
+    "built_with": "ხელსაწყო",
+    "link": "მისამართი"
   }
 }

@@ -186,6 +186,21 @@ main {
   main {
     .archive {
       padding: 125px 25px;
+
+      table {
+        thead {
+          tr {
+            th {
+              font-size: $font-size-sm;
+            }
+          }
+        }
+        tbody {
+          td.title {
+            font-size: $font-size-sm;
+          }
+        }
+      }
     }
   }
 }
@@ -194,12 +209,6 @@ main {
   main {
     .archive {
       padding: 100px 15px;
-
-      table {
-        td.title {
-          font-size: $font-size-md;
-        }
-      }
     }
   }
 }
