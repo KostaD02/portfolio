@@ -11,7 +11,7 @@ import * as AOS from 'aos';
 export class AppComponent implements OnInit, OnDestroy {
   private readonly destroy$ = new Subject<void>();
 
-  public isAnimationOn: boolean = false;
+  public isAnimationOn: boolean = localStorage.getItem("enable_animation") ? false : true || true;
 
   public hideEventEmitter: EventEmitter<boolean> = new EventEmitter();
   public startedScrollingEventEmitter: EventEmitter<boolean> = new EventEmitter();
