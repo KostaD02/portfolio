@@ -12,7 +12,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   },
   {
     year: 2023,
-    title: "Realttime chat",
+    title: "Realtime chat",
     built_with: ["Angular", "SCSS", "Firebase"],
     link: {
       external: "https://realtime-chat-kd.web.app/",
