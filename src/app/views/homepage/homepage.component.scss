@@ -164,7 +164,7 @@ main {
             height: 300px;
             border-radius: $border-radius;
             transition: $transition;
-            background-color: #64ffda;
+            background-color: #64ffdb8a;
             opacity: 0.5;
           }
 
@@ -173,6 +173,7 @@ main {
             width: 300px;
             height: 300px;
             object-fit: cover;
+            object-position: center;
           }
         }
       }
