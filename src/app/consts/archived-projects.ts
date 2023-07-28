@@ -3,6 +3,15 @@ import { ArchivedProjectsInterface } from '../interfaces';
 export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2023,
+    title: "Kvlividze - Learn georgian",
+    made_at: "Freelance",
+    built_with: ["Angular", "Angular material", "SCSS", "RxJS", "SweetAlert2", "i18n", "Express", "MongoDB", "JWT"],
+    link: {
+      external: "https://kvlividze.com"
+    }
+  },
+  {
+    year: 2023,
     title: "Iswavle - Educational website",
     built_with: ["Angular", "Angular material", "SCSS", "RxJS", "SSR", "SweetAlert2", "Express", "MongoDB"],
     link: {
@@ -49,7 +58,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2023,
     title: "Ravillas apartments",
-    made_at: "Ravillas",
+    made_at: "Freelance",
     built_with: ["Angular", "Angular material", "SCSS", "Firebase", "SweetAlert2"]
   },
   {
@@ -82,7 +91,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2022,
     title: "Registry imdo",
-    made_at: "IMDO",
+    made_at: "Freelance",
     built_with: ["Angular", "Angular material", "SweetAlert2", "Express", "MongoDB"],
     link: {
       external: "https://registryimdo.org"
