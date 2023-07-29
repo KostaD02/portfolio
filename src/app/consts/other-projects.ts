@@ -5,7 +5,7 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
     name: "realtime_chat",
     tags: ["Angular", "SCSS" ,"Firebase"],
     externalLinks: {
-      external: "https://realtime-chat-kd.web.app/",
+      external: "https://chat.konstantinedatunishvili.com/",
       github: "https://github.com/KostaD02/Realtime-Chat",
     }
   },
@@ -13,7 +13,7 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
     name: "qr_project",
     tags: ["Angular", "SCSS" ,"QR"],
     externalLinks: {
-      external: "https://qr-read-write.web.app/",
+      external: "https://qr.konstantinedatunishvili.com/",
       github: "https://github.com/KostaD02/QR-read-write",
     }
   },
@@ -21,7 +21,7 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
     name: "qa_exercise",
     tags: ["Angular", "SCSS" ,"Firebase", "OAuth"],
     externalLinks: {
-      external: "https://qa-test-6e586.web.app",
+      external: "https://qa.konstantinedatunishvili.com/",
       github: "https://github.com/KostaD02/QA-Exercise",
     }
   },

@@ -24,7 +24,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     title: "Realtime chat",
     built_with: ["Angular", "SCSS", "Firebase"],
     link: {
-      external: "https://realtime-chat-kd.web.app/",
+      external: "https://chat.konstantinedatunishvili.com/",
       github: "https://github.com/KostaD02/Realtime-Chat"
     }
   },
@@ -33,7 +33,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     title: "QR Read & Write",
     built_with: ["Angular", "SCSS", "SweetAlert2"],
     link: {
-      external: "https://qr-read-write.web.app/",
+      external: "https://qr.konstantinedatunishvili.com/",
       github: "https://kostad02.github.io/QR-read-write"
     }
   },
@@ -42,7 +42,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     title: "QA exercise",
     built_with: ["Angular", "Angular material", "SCSS", "Firebase", "SweetAlert2"],
     link: {
-      external: "https://qa-test-6e586.web.app/sign-in",
+      external: "https://qa.konstantinedatunishvili.com/",
       github: "https://github.com/KostaD02/QA-Exercise"
     }
   },
