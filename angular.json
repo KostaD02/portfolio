@@ -28,7 +28,8 @@
               "src/assets",
               "src/sitemap.xml",
               "src/robots.txt",
-              "src/resume.pdf"
+              "src/resume.pdf",
+              "src/cv.pdf"
             ],
             "styles": [
               "./node_modules/aos/dist/aos.css",

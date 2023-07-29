@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnDestroy } from '@angular/core';
+import { Component, EventEmitter, Input, OnDestroy, OnInit } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
 import { map, tap, takeUntil } from 'rxjs/operators';
 import { LanguageEnum } from 'src/app/enums';
@@ -9,18 +9,21 @@ import { AppTranslateService, HeaderService } from 'src/app/services';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnDestroy {
+export class HeaderComponent implements OnInit, OnDestroy {
   @Input() hide: EventEmitter<boolean> = new EventEmitter();
   @Input() scrolled: EventEmitter<boolean> = new EventEmitter();
 
-  public showHamburger$: Observable<boolean>;
+  public showHamburger$!: Observable<boolean>;
   public isListActive = false;
   public isMenuOpen = false;
   public hideHeader: boolean = false;
   public isScrolling: boolean = false;
+  public link: string = "./resume.pdf";
   private destroy$ = new Subject<void>();
 
-  constructor(private appTranslateService: AppTranslateService, private headerService: HeaderService) {
+  constructor(private appTranslateService: AppTranslateService, private headerService: HeaderService) { }
+
+  ngOnInit(): void {
     this.showHamburger$ = this.getWindowSize().pipe(
       map((size) => {
         const isTablet = size.width <= 768;
@@ -34,6 +37,12 @@ export class HeaderComponent implements OnDestroy {
       }),
       takeUntil(this.destroy$)
     );
+    this.appTranslateService.languageObservable$.pipe(
+      tap(result => {
+        this.link = result === LanguageEnum.KA ? './cv.pdf' : './resume.pdf';
+      }),
+      takeUntil(this.destroy$)
+    ).subscribe();
   }
 
   ngOnDestroy(): void {
