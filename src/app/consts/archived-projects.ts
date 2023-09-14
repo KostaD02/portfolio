@@ -3,6 +3,16 @@ import { ArchivedProjectsInterface } from '../interfaces';
 export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2023,
+    title: "EverREST - learn Backend",
+    built_with: ["Nest.js", "MongoDB", "mdBook", "socket.io", "JWT"],
+    link: {
+      external: "https://everrest.educata.dev/",
+      github: "https://github.com/educata/everrest",
+      swagger: "https://everrest.educata.dev/docs/swagger"
+    }
+  },
+  {
+    year: 2023,
     title: "Kvlividze - Learn georgian",
     made_at: "Freelance",
     built_with: ["Angular", "Angular material", "SCSS", "RxJS", "SweetAlert2", "i18n", "Express", "MongoDB", "JWT"],
