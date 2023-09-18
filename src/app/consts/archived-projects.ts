@@ -5,6 +5,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     year: 2023,
     title: "EverREST - learn Backend",
     built_with: ["Nest.js", "MongoDB", "mdBook", "socket.io", "JWT"],
+    made_at: "Educata",
     link: {
       external: "https://everrest.educata.dev/",
       github: "https://github.com/educata/everrest",
