@@ -4,7 +4,7 @@ div.loader {
   position: relative;
   width: 90px;
   height: 105px;
-  animation: 4.75s ease dissapear;
+  animation: 2s ease dissapear;
 
   aside {
     span {
@@ -13,7 +13,7 @@ div.loader {
       font-weight: 700;
       font-size: 34px;
       user-select: none;
-      animation: 4s ease name;
+      animation: 2s ease name;
     }
   }
 
@@ -37,35 +37,35 @@ div.loader {
 
       .first {
         left: 0px;
-        animation: 0.6s ease load1;
+        animation: 0.3s ease load1;
       }
 
       .second {
         right: 0px;
         bottom: 0px;
-        animation: 3s ease load6;
+        animation: 1.4s ease load6;
       }
 
       .third {
         right: 0px;
         bottom: 0px;
-        animation: 2.5s ease load5;
+        animation: 1.2s ease load5;
       }
 
       .forth {
         right: 0px;
         bottom: 0px;
-        animation: 2s ease load4;
+        animation: 1s ease load4;
       }
 
       .fifth {
         left: 0px;
-        animation: 1.7s ease load3;
+        animation: 0.85s ease load3;
       }
 
       .sixth {
         left: 0px;
-        animation: 1.3s ease load2;
+        animation: 0.65s ease load2;
       }
     }
 
@@ -171,8 +171,12 @@ div.loader {
     opacity: 0;
   }
 
-  85% {
+  70% {
     opacity: 0;
+  }
+
+  90% {
+    opacity: 1;
   }
 
   100% {
