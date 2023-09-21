@@ -9,7 +9,7 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
     link: {
       external: "https://everrest.educata.dev/",
       github: "https://github.com/educata/everrest",
-      swagger: "https://everrest.educata.dev/docs/swagger"
+      swagger: "https://api.everrest.educata.dev/swagger"
     }
   },
   {
