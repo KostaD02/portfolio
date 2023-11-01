@@ -145,5 +145,20 @@
     "made_at": "Made at",
     "built_with": "Built with",
     "link": "Link"
+  },
+  "qr": {
+    "title": "Multi-level access to information systems by QR codes for wearable devices",
+    "role": {
+      "title": "My role in article",
+      "text_1": "I was the developer responsible for maintaining all of the code and transforming the entire idea into an app."
+    },
+    "abstract": {
+      "title": "Abstract",
+      "text_1": "The scientific project \"Multi-level access of information systems by QR codes for wearable devices\" was carried out within the framework of the scientific grant project of Batumi State University.",
+      "text_2": "The idea is practically implemented and discussed in the example of a higher educational institution (university). Various areas of business and state organizations where successful practical implementation of the obtained results is possible are also mentioned.",
+      "text_3": "Based on scientific research, an original software product was created, by means of which only one static QR code placed on different objects (in our research mode, BSU auditorium) allows people with different statuses to access different data, in our case, employees and students. At the same time, the QR code assigned to the room remains unchanged even if the processes in the room change, which excludes frequent changes in the graphic image (QR code) placed on the room(object).",
+      "text_4": "The mentioned changes will be implemented only in electronic form on the web page where this information is posted and the user will receive only the updated information. For another example, the method can be used to digitize cities, including tourist facilities, restaurants, cafes, banks, etc., to provide different information about users of different access levels (loyalty programs, etc.) through a single QR code.",
+      "text_5": " The field of the practical application of the system can be quite wide in terms of its simplicity and technological practicality. Research methodology is based on modern achievements of computer technology, Internet technologies, and programming tools. These technologies are widely used in the research process and in one of the results of the research - the software product."
+    }
   }
 }
