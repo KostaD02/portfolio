@@ -150,15 +150,15 @@
     "title": "Multi-level access to information systems by QR codes for wearable devices",
     "role": {
       "title": "My role in article",
-      "text_1": "I was the developer responsible for maintaining all of the code and transforming the entire idea into an app."
+      "text_1": "As a developer, I was responsible for maintaining and optimizing the code, and developing the app's frontend and backend functionality."
     },
     "abstract": {
       "title": "Abstract",
-      "text_1": "The scientific project \"Multi-level access of information systems by QR codes for wearable devices\" was carried out within the framework of the scientific grant project of Batumi State University.",
-      "text_2": "The idea is practically implemented and discussed in the example of a higher educational institution (university). Various areas of business and state organizations where successful practical implementation of the obtained results is possible are also mentioned.",
-      "text_3": "Based on scientific research, an original software product was created, by means of which only one static QR code placed on different objects (in our research mode, BSU auditorium) allows people with different statuses to access different data, in our case, employees and students. At the same time, the QR code assigned to the room remains unchanged even if the processes in the room change, which excludes frequent changes in the graphic image (QR code) placed on the room(object).",
-      "text_4": "The mentioned changes will be implemented only in electronic form on the web page where this information is posted and the user will receive only the updated information. For another example, the method can be used to digitize cities, including tourist facilities, restaurants, cafes, banks, etc., to provide different information about users of different access levels (loyalty programs, etc.) through a single QR code.",
-      "text_5": " The field of the practical application of the system can be quite wide in terms of its simplicity and technological practicality. Research methodology is based on modern achievements of computer technology, Internet technologies, and programming tools. These technologies are widely used in the research process and in one of the results of the research - the software product."
+      "text_1": "Multi-level access of information systems by QR codes for wearable devices is a scientific project developed at Batumi State University. The project was implemented and tested in a university setting, but it has the potential to be used in a wide range of business and government organizations.",
+      "text_2": "Researchers at Batumi State University developed a software product that allows people with different statuses to access different data using a single static QR code. The QR code can be placed on any object, and the data that is displayed will vary depending on the user's status. For example, in a university setting, employees and students could be given different access to information about classes, events, and resources.",
+      "text_3": "The QR code assigned to a room remains unchanged even if the processes in the room change. This means that the QR code only needs to be updated once, even if the information about the room changes frequently. For example, if a classroom is used for different classes throughout the day, the QR code would not need to be updated each time.",
+      "text_4": "The software product can be used to digitize cities, providing different information to users of different access levels. For example, tourists could use QR codes to access information about attractions, restaurants, and cafes. Customers could use QR codes to access information about loyalty programs and special offers.",
+      "text_5": "The system is simple and technologically practical, with a wide range of potential applications. The researchers at Batumi State University used modern computer technology, Internet technologies, and programming tools to develop the software product."
     }
   }
 }
