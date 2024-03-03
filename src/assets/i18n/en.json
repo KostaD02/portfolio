@@ -65,16 +65,16 @@
   },
   "projects": {
     "header": "Some Things I've Built",
-    "registry_imdo": {
+    "EverREST": {
       "tag": "Featured Project",
-      "title": "Registry Imdo",
-      "description": "This digital platform was designed for the verification of certificates designed by the Irish Imdo Maritime Authority. The aim of Maritime Authority of Irish Imdo is to come to a safe maritime environment in compliance with International Rules and Regulations.",
+      "title": "EverREST",
+      "description": "EveREST was built to assist front-end developers in creating websites more efficiently. The concept revolves around providing free API calls achievable through a REST API. This project empowers users to employ CRUD operations at no cost. Users can develop shopping websites, implement cart functionalities, manage authentication, generate QR codes, retrieve random quotes, and much more.",
       "tags": {
-        "1": "Angular",
-        "2": "Angular Material",
-        "3": "Express",
-        "4": "MongoDB",
-        "5": "Full-stack"
+        "1": "Nest.js",
+        "2": "mdBook",
+        "3": "MongoDB",
+        "4": "JWT",
+        "5": "QR"
       }
     },
     "iswavle": {
@@ -107,29 +107,29 @@
   "other_projects": {
     "header": "Other Noteworthy Projects",
     "view_archive": "View archive",
-    "sliding_game": {
-      "name": "Sliding puzzle game",
-      "description": "Starting at the top left corner, move the tiles in ascending order in the grid. The tile in the lower right corner should remain 'empty'."
+    "old_iswavle": {
+      "name": "Iswavle (archived)",
+      "description": "This was base version of current Iswavle before refactor."
     },
-    "memory_card_game": {
-      "name": "Memory card game",
-      "description": "The objective of the game is to match all pairs of cards as quickly as possible."
+    "shoployalty": {
+      "name": "Shop loyalty",
+      "description": "Shop website where convenience meets savings! Simply scan QR codes, proceed to checkout, and unlock discounts later on."
     },
-    "color_game": {
-      "name": "Color game",
-      "description": "Guess the color based on the color format RGB or HEX. The colors are randomly generated."
+    "ngxcubeloader": {
+      "name": "NgxCubeLoader",
+      "description": "Customizable Angular cube loader with prebuilt themes"
     },
-    "qr_project": {
-      "name": "QR read & write",
-      "description": "Generate QR code with or without an image, or read a QR image."
+    "algorithms": {
+      "name": "Algorithms",
+      "description": "Most basic algorithms are wrapped in a single code for JavaScript. Includes sorting and search algorithms."
     },
     "realtime_chat": {
       "name": "Realtime Chat",
       "description": "Join our real-time chat platform to connect instantly with others in general or specialized groups."
     },
-    "qa_exercise": {
-      "name": "QA Exercise",
-      "description": "Discover hidden bugs and vulnerabilities in your Simple Auth/OAuth 2.0 system with our expert testing."
+    "qr_project": {
+      "name": "QR read & write",
+      "description": "Generate QR code with or without an image, or read a QR image."
     }
   },
   "contact": {

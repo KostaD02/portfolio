@@ -3,6 +3,15 @@ import { ArchivedProjectsInterface } from '../interfaces';
 export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2024,
+    title: 'NgxCubeLoader',
+    built_with: ['Angular', 'Lib'],
+    link: {
+      external: 'https://www.npmjs.com/package/ngx-cube-loader',
+      github: 'https://github.com/KostaD02/NgxCubeLoader',
+    },
+  },
+  {
+    year: 2024,
     title: 'Iswavle',
     made_at: 'Educata',
     built_with: ['Angular', 'Ng-Zorro', 'RxJS', 'SSR', 'SSG', 'md'],
@@ -40,6 +49,14 @@ export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
       external: 'https://everrest.educata.dev/',
       github: 'https://github.com/educata/everrest',
       swagger: 'https://api.everrest.educata.dev/swagger',
+    },
+  },
+  {
+    year: 2023,
+    title: 'Algorithms',
+    built_with: ['JavaScript', 'node.js'],
+    link: {
+      github: 'https://github.com/KostaD02/algorithms',
     },
   },
   {

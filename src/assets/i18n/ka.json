@@ -65,16 +65,16 @@
   },
   "projects": {
     "header": "ჩემი პროექტები",
-    "registry_imdo": {
+    "EverREST": {
       "tag": "გამორჩეული პროექტი",
-      "title": "Registry Imdo",
-      "description": "ეს ციფრული პლატფორმა შეიქმნა ირლანდიის Imdo საზღვაო ორგანოს მიერ შექმნილი სერთიფიკატების გადამოწმებისთვის. ირლანდიური Imdo საზღვაო ორგანოს მიზანია უსაფრთხო საზღვაო გარემოს მიღწევა საერთაშორისო წესებისა და რეგულაციების შესაბამისად.",
+      "title": "EverREST",
+      "description": "EverREST შეიქმნა იმისათვის, რომ Front-End დეველოპერებს შესაძლებლობა ჰქონოდა უკეთესი ვებგვერდები გაეკეთებინათ. იდეა მარტივია, როცა Front-End სწავლობ რთულია კარგი API სერვისები იპოვო, ამიტომაც შეიქმნა EverREST. ყოველგავრი თანხის გარეშე შესაძლებელია სხვადასხვა სერვისების გამოყენება.",
       "tags": {
-        "1": "Angular",
-        "2": "Angular Material",
-        "3": "Express",
-        "4": "MongoDB",
-        "5": "Full-stack"
+        "1": "Nest.js",
+        "2": "mdBook",
+        "3": "MongoDB",
+        "4": "JWT",
+        "5": "QR"
       }
     },
     "iswavle": {
@@ -107,29 +107,29 @@
   "other_projects": {
     "header": "სხვა საყურადღებო პროექტები",
     "view_archive": "არქივის ხილვა",
-    "sliding_game": {
-      "name": "Sliding puzzle game",
-      "description": "Starting at the top left corner, move the tiles in ascending order in the grid. The tile in the lower right corner should remain 'empty'."
+    "old_iswavle": {
+      "name": "Iswavle (დაარქივებული)",
+      "description": "ეს არის ძველი ვერსია ამჟამინდელი Iswavle-სი."
     },
-    "memory_card_game": {
-      "name": "Memory card game",
-      "description": "The objective of the game is to match all pairs of cards as quickly as possible."
+    "shoployalty": {
+      "name": "Shop loyalty",
+      "description": "ლოიალურობის პროგრამა მაღაზიებში. QR კოდების დასკანერებით, პროდუქტების კალათაში დამატება და ფაზდაკლებების მიღების აპლიკაცია."
     },
-    "color_game": {
-      "name": "Color game",
-      "description": "Guess the color based on the color format RGB or HEX. The colors are randomly generated."
+    "ngxcubeloader": {
+      "name": "NgxCubeLoader",
+      "description": "კონფიგურირებადი Angular-ის კუბის ჩატვრითვის ანიმაცია სხვადასხვა თემებით."
     },
-    "qr_project": {
-      "name": "QR read & write",
-      "description": "Generate QR code with or without an image, or read a QR image."
+    "algorithms": {
+      "name": "Algorithms",
+      "description": "სხვადასხვა ძირითადი ალგორითმები არის გაერთიანებული ერთ JavaScript-ის კოდში. დალაგების და მოძებნის ალგორითმები."
     },
     "realtime_chat": {
       "name": "Realtime Chat",
-      "description": "Join our real-time chat platform to connect instantly with others in general or specialized groups."
+      "description": "რეალურ დროში ჩათის აპლიკაცია, სადაც ჩათი შესაძლებელია დახურულ ჯგუფებში ან საერთო ჯგუფში."
     },
-    "qa_exercise": {
-      "name": "QA Exercise",
-      "description": "Discover hidden bugs and vulnerabilities in your Simple Auth/OAuth 2.0 system with our expert testing."
+    "qr_project": {
+      "name": "QR read & write",
+      "description": "QR კოდის დაგენერირება სურათით ან სურათის გარეშე, ასევე QR კოდის წაკითხვა."
     }
   },
   "contact": {

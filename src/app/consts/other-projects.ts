@@ -2,51 +2,53 @@ import { OtherProjectsInformationInterface } from '../interfaces/other-projects.
 
 export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
   {
-    name: "realtime_chat",
-    tags: ["Angular", "SCSS" ,"Firebase"],
+    name: 'old_iswavle',
+    tags: ['Angular', 'SCSS', 'Experss', 'MongoDB'],
     externalLinks: {
-      external: "https://chat.konstantinedatunishvili.com/",
-      github: "https://github.com/KostaD02/Realtime-Chat",
-    }
+      external: 'https://iswavle.web.app/',
+      github: 'https://github.com/KostaD02/iswavle',
+    },
   },
   {
-    name: "qr_project",
-    tags: ["Angular", "SCSS" ,"QR"],
+    name: 'shoployalty',
+    tags: ['Angular', 'SCSS', 'SSR', 'Nest.js', 'MongoDB'],
     externalLinks: {
-      external: "https://qr.konstantinedatunishvili.com/",
-      github: "https://github.com/KostaD02/QR-read-write",
-    }
+      external: 'https://shoployalty.konstantinedatunishvili.com/',
+      github: 'https://github.com/KostaD02/ShopLoyalty',
+      swagger:
+        'https://backend-shoployalty.konstantinedatunishvili.com/swagger',
+    },
   },
   {
-    name: "qa_exercise",
-    tags: ["Angular", "SCSS" ,"Firebase", "OAuth"],
+    name: 'ngxcubeloader',
+    tags: ['Angular', 'Lib'],
     externalLinks: {
-      external: "https://qa.konstantinedatunishvili.com/",
-      github: "https://github.com/KostaD02/QA-Exercise",
-    }
+      external: 'https://www.npmjs.com/package/ngx-cube-loader',
+      github: 'https://github.com/KostaD02/NgxCubeLoader',
+    },
   },
   {
-    name: "sliding_game",
-    tags: ["HTML", "CSS", "JS"],
+    name: 'algorithms',
+    tags: ['Algorithms', 'Javascript', 'Node.js'],
     externalLinks: {
-      external: "https://kostad02.github.io/Sliding-Puzzle-Game-JS",
-      github: "https://github.com/KostaD02/Sliding-Puzzle-Game-JS"
-    }
+      external: 'https://github.com/KostaD02/algorithms',
+      github: 'https://github.com/KostaD02/algorithms',
+    },
   },
   {
-    name: "memory_card_game",
-    tags: ["HTML", "CSS", "JS"],
+    name: 'realtime_chat',
+    tags: ['Angular', 'SCSS', 'Firebase'],
     externalLinks: {
-      external: "https://kostad02.github.io/Memory-Card-Game-JS",
-      github: "https://github.com/KostaD02/Memory-Card-Game-JS"
-    }
+      external: 'https://chat.konstantinedatunishvili.com/',
+      github: 'https://github.com/KostaD02/Realtime-Chat',
+    },
   },
   {
-    name: "color_game",
-    tags: ["HTML", "CSS", "JS"],
+    name: 'qr_project',
+    tags: ['Angular', 'SCSS', 'QR'],
     externalLinks: {
-      external: "https://kostad02.github.io/Color-Game-JS",
-      github: "https://github.com/KostaD02/Color-Game-JS",
-    }
+      external: 'https://qr.konstantinedatunishvili.com/',
+      github: 'https://github.com/KostaD02/QR-read-write',
+    },
   },
 ];
