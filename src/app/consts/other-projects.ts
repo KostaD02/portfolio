@@ -11,7 +11,7 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
   },
   {
     name: 'shoployalty',
-    tags: ['Angular', 'SCSS', 'SSR', 'Nest.js', 'MongoDB'],
+    tags: ['Angular', 'SCSS', 'Nest.js', 'MongoDB'],
     externalLinks: {
       external: 'https://shoployalty.konstantinedatunishvili.com/',
       github: 'https://github.com/KostaD02/ShopLoyalty',
