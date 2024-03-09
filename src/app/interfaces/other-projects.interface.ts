@@ -5,5 +5,6 @@ export interface OtherProjectsInformationInterface {
     external: string;
     github?: string;
     swagger?: string;
+    npm?: string;
   };
 }

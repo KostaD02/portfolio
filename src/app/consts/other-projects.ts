@@ -23,8 +23,9 @@ export const OtherProjectsInformation: OtherProjectsInformationInterface[] = [
     name: 'ngxcubeloader',
     tags: ['Angular', 'Lib'],
     externalLinks: {
-      external: 'https://www.npmjs.com/package/ngx-cube-loader',
+      external: 'https://kostad02.github.io/NgxCubeLoader/',
       github: 'https://github.com/KostaD02/NgxCubeLoader',
+      npm: 'https://www.npmjs.com/package/ngx-cube-loader',
     },
   },
   {
