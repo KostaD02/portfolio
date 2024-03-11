@@ -8,5 +8,6 @@ export interface ArchivedProjectsInterface {
     github?: string;
     swagger?: string;
     article?: string;
-  }
+    npm?: string;
+  };
 }

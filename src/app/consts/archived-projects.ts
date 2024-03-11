@@ -3,11 +3,21 @@ import { ArchivedProjectsInterface } from '../interfaces';
 export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2024,
+    title: 'Color utils',
+    built_with: ['TypeScript', 'Lib'],
+    link: {
+      github: 'https://github.com/KostaD02/Color-Utils',
+      npm: 'https://www.npmjs.com/package/@kostad/color-utils',
+    },
+  },
+  {
+    year: 2024,
     title: 'NgxCubeLoader',
     built_with: ['Angular', 'Lib'],
     link: {
-      external: 'https://www.npmjs.com/package/ngx-cube-loader',
+      npm: 'https://www.npmjs.com/package/ngx-cube-loader',
       github: 'https://github.com/KostaD02/NgxCubeLoader',
+      external: 'https://kostad02.github.io/NgxCubeLoader/',
     },
   },
   {
