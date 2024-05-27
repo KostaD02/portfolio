@@ -2,17 +2,22 @@ import { InformationInterface } from '../interfaces';
 
 export const JobsInformation: InformationInterface[] = [
   {
-    name: "itstep",
-    details: 4,
-    link: "https://itstep.org"
+    name: 'etoro',
+    details: 6,
+    link: 'https://www.etoro.com',
   },
   {
-    name: "payever",
+    name: 'itstep',
     details: 4,
-    link: "https://payever.org"
+    link: 'https://itstep.org',
   },
   {
-    name: "freelance",
-    details: 2
-  }
+    name: 'payever',
+    details: 4,
+    link: 'https://payever.org',
+  },
+  {
+    name: 'freelance',
+    details: 2,
+  },
 ];

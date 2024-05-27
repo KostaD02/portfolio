@@ -3,6 +3,15 @@ import { ArchivedProjectsInterface } from '../interfaces';
 export const ArchivedProjectsInformation: ArchivedProjectsInterface[] = [
   {
     year: 2024,
+    title: 'eToro',
+    made_at: 'eToro',
+    built_with: ['Angular', 'AngularJS', 'TypeScript', 'Nx'],
+    link: {
+      external: 'https://etoro.com',
+    },
+  },
+  {
+    year: 2024,
     title: 'Color utils',
     built_with: ['TypeScript', 'Lib'],
     link: {

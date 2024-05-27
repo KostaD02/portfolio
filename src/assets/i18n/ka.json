@@ -28,6 +28,20 @@
   },
   "experience": {
     "header": "სამუშაო გამოცდილება",
+    "etoro": {
+      "name": "eToro",
+      "at": "eToro",
+      "position": "Senior Front-End Developer",
+      "date": "May 2024 - Present",
+      "details": {
+        "1": "As a senior developer, I am responsible for maintaining an existing Angular project structured as a monorepo using Nx.",
+        "2": "My duties include ensuring the current codebase is stable, efficient, and bug-free, while continuously refactoring and enhancing the code for better performance and readability.",
+        "3": "I manage dependencies by keeping them up-to-date and ensuring compatibility and security.",
+        "4": "In addition to these technical tasks, I implement new features as needed, ensuring they integrate seamlessly with the existing project.",
+        "5": "Collaboration is a key part of my role, as I work closely with other developers, designers, and stakeholders to ensure smooth communication and integration.",
+        "6": "Furthermore, I collaborate with designers using Figma to translate design specifications into high-quality, functional UI components."
+      }
+    },
     "itstep": {
       "name": "Academy IT Step",
       "at": "IT აკადემია სტეპში",
